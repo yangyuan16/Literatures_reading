@@ -34,9 +34,11 @@
 >TSC提供了一种新的机制。
 >
 >(11)实验上，三角晶格化合物是最有前途的拓扑态的主要候选者之一，也是实现包括 weak Mott 绝缘体的的QSL的
-> 主要候选者。d+id 波超导的候选者 $$Na_xCoO_2$$
->  
->(12) 
+> 主要候选者。d+id 波超导的候选者 $Na_xCoO_2$ 和 $Sn/Si(111)$ systems,并且扭曲过渡金属（twisted transition）
+> 二硫族（dichalcogenides,TMD）moire 系统可以模拟Hubbard 和相关的t-J模型。关联绝缘体和可能从超导体可以在这些
+> 系统中被发现，从理论上理解实验可调参数之间的丰富相互作用，如电子hopping 或相互作用。
+> 
+> (12) 
 #### summary of the intro:
 > （1）分数量子霍尔效应会导致出现拓扑序和分数激发。
 > 而破缺了时间反手征量子自旋液体态属于一种分数量子霍尔态。
@@ -52,3 +54,5 @@
 > (1) topological quantum phase transition
 > (2) fractional quantum Hull effect 
 > (3) time reversal symmetry
+> (4) t-J model
+> (5) 
