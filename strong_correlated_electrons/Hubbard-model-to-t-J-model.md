@@ -41,8 +41,6 @@
 >参考youyube 上的视频教程[fermionic creation and annihilation operators](https://www.youtube.com/watch?v=HZ43XE89n8s)
 >费米子满足的运算规则如下：
 >
-> electrons can occupy quantum states $|k\rangle$
-> 哈密顿量可以写为：$\hat{H}=\sum_{k\epsilon_k \c_k^{\dagger} \c_k}$
 >
 > $$
 >
@@ -56,6 +54,10 @@
 >**or exactyly eigenstate of hamiltonian**),we can therefor trivially read off the energy of the full system 
 > by just knowing un the energies of the individual orbitals and how many electrons either zero or one occupy 
 > each of these orbitals
+>
+> electrons can occupy quantum states $|k\rangle$
+>
+> 哈密顿量可以写为：$$\hat{H}=\sum_{k\epsilon_k \c_k^{\dagger} \c_k}$$
 >
 >
 >
