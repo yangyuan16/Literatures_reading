@@ -83,17 +83,20 @@ $$
 
 >作用于本征态上
 
-$$\left[
+$$
+\left[
 \begin{array}{cc}
 0 & 0 \\
 0 & 1 \\
 \end{array}
-\right] \left[
+\right] 
+\left[
 \beign{array}{c}
 0 \\
 1 \\
 \end{array}
-\right] = \left[
+\right] =
+\left[
 \beign{array}{c}
 0 \\
 1 \\
