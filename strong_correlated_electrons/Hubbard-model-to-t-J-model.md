@@ -12,6 +12,14 @@
 > N 是系统的格点数；t 是近邻电子跳动常数；U 是位于同一格点的两电子之间的相互作用强度，U>0 为库伦排斥势，U<0为库伦吸引势。
 > $c_{j,\alpha}^{\dagger}$ 和 $c_{j,\alpha}$ 分别是第 $j$ 个格点上自旋为 $\alpha(=\uparrow , \downarrow)$ 的电子产生和
 > 湮灭算符，并且，根据周期性边界条件，我们假定 $c_{N+1,\alpha} = c_{1,\alpha}$ 以及 $c_{N+1,\alpha}^{\dagger} = c_{1,\alpha}^{\dagger}$
+
+##### fermionic creation and annihilation operators
+> $$ f_0 = \begin{pmatrix}
+0&1\\
+0&0\\
+\end{pmatrix}$$
+
+
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
