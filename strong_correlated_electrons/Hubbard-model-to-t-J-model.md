@@ -14,10 +14,13 @@
 > 湮灭算符，并且，根据周期性边界条件，我们假定 $c_{N+1,\alpha} = c_{1,\alpha}$ 以及 $c_{N+1,\alpha}^{\dagger} = c_{1,\alpha}^{\dagger}$
 
 ##### fermionic creation and annihilation operators
-> $f_0 = \begin{pmatrix}
+> $$f_0 = \begin{pmatrix}
 0&1\\
 0&0\\
-\end{pmatrix}$
+\end{pmatrix}$$ $$ f_0^{\dagger} = \begin{pmatrix}
+0&0\\
+1&0\\
+\end{pmatrix}$$
 
 
 #### t-J model
