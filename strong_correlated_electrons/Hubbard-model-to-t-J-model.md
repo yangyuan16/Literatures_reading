@@ -84,6 +84,7 @@ $$
 >作用于本征态上
 
 $$
+|n_k\rangle|1\rangle
 \left[
 \begin{array}{cc}
 0 & 0 \\
