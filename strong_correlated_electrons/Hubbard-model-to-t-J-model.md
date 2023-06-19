@@ -84,6 +84,7 @@ $$
 作用于本征态上:
 
 $$
+|\hat{n}_k\rangle|1\rangle=
 \left[ 
 \begin{array}{cc}
 0 & 0 \\
@@ -102,6 +103,25 @@ $$
 \right] = |1\rangle
 $$
 
+$$
+|\hat{n}_k\rangle|0\rangle=
+\left[ 
+\begin{array}{cc}
+0 & 0 \\
+0 & 1 \\
+\end{array}
+\right] \cdot \left[
+\begin{array}{cc}
+1 \\
+0 \\
+\end{array} 
+\right] = \left[
+\begin{array}{cc}
+0 \\
+0 \\
+\end{array}
+\right] = 0
+$$
 
 
 >
