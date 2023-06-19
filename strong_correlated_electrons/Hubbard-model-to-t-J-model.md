@@ -81,40 +81,29 @@ $$
 \right]
 $$
 
-作用于本征态上
+作用于本征态上:
+
 $$
-|n_k\rangle|1\rangle
-\left \[
+\hat{c}_k^{\dagger} \hat{c}_k = \left[ 
 \begin{array}{cc}
 0 & 0 \\
-0 & 1 
-\end{array} \right\] \left\[
-\beign{array}{cc}
-0 \\
-1 
-\end{array} \right\] = \left\[
-\beign{array}{cc}
-0 \\
-1 
-\end{array} \right\]
+1 & 0 \\
+\end{array}
+\right] \cdot \left[
+\begin{array}{cc}
+0 & 1 \\
+0 & 0 \\
+\end{array} 
+\right] = \left[
+\begin{array}{cc}
+0 & 0 \\
+0 & 1 \\
+\end{array}
+\right]
 $$
 
 
-> $$
-> \hat{c_k^{\dagger}} \hat{c_k} = 
-> \begin{pmatrix}
-> 0 & 0 \\
-> 1 & 0 \\
-> \end{\pmatrix} \cdot 
-> \begin{pmatrix} 
-> 0 & 1 \\
-> 0 & 0 \\
-> \end{pmatrix} = 
-> \begin{pmatrix}
-> 0 & 0 \\
-> 0 & 1 \\
-> \end{pmatrix}$$
->
+
 >
 #### tight binding models
 ##### 简介
