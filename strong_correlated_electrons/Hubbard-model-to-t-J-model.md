@@ -8,6 +8,7 @@
 ##### 模型
 > $$H = -t \sum_{\alpha,j=1}^{N}[c_{j,\alpha}^{\dagger}c_{j+1, \alpha} + c_{j+1,\alpha}^{\dagger}c_{j,\alpha} ] + 
 > U\sum_{j=1}^{N} n_{j,\uparrow} n_{j,\downarrow}$$
+> 
 > N 是系统的格点数；t 是近邻电子跳动常数；U 是位于同一格点的两电子之间的相互作用强度，U>0 为库伦排斥势，U<0为库伦吸引势。
 > $c_{j,\alpha}^{\dagger}$ 和 $c_{j,\alpha}$ 分别是第 $j$ 个格点上自旋为 $\alpha(=\uparrow , \downarrow)$ 的电子产生和
 > 湮灭算符，并且，根据周期性边界条件，我们假定 $c_{N+1,\alpha} = c_{1,\alpha}$ 以及 $c_{N+1,\alpha}^{\dagger} = c_{1,\alpha}^{\dagger}$
