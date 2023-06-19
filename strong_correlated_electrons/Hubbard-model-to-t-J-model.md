@@ -151,7 +151,10 @@ operators
 > but allow electrons to move from one orbital to another (允许电子从一个轨道跑到另一个轨道), of course this means the eigenstates 
 > are going to be superpositions of the product state bases involving electron in specific orbitals(本征态会变得互相叠加,也就是让
 > 电子会跑到特殊的轨道上)。
-> 
+
+$$ \hat{H} = \sum_i \epsilon_i c_i^{\dagger} c_i + \sum_{i,j}t_{i,j}c_i^{\dagger}c_j$$ 
+
+where $\epsilon_i c_i^{\dagger}c_i$ is the potential energy (势能), $t_{ij}c_i^{\dagger}c_j$ 是kinetic energy. 
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
