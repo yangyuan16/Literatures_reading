@@ -92,13 +92,13 @@ $$
 \end{array}
 \right\] 
 \left\[
-\beign{array}{c}
+\beign{array}{cc}
 0 \\
 1 
 \end{array}
 \right\] =
 \left\[
-\beign{array}{c}
+\beign{array}{cc}
 0 \\
 1 
 \end{array}
