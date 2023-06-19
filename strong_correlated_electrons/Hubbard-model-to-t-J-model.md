@@ -40,6 +40,34 @@
 >
 >参考youyube 上的视频教程[fermionic creation and annihilation operators](https://www.youtube.com/watch?v=HZ43XE89n8s)
 >费米子满足的运算规则如下：
+>
+> electrons can occupy quantum states $|k\rangle$
+> 哈密顿量可以写为：$\hat{H}=\sum_{k\epsilon_k \c_k^{\dagger} \c_k}$
+>
+> $$
+>
+#### Free electron gas
+##### 简介
+> 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
+>
+>**how many electrons are occupying each of these quantum orbitals?**
+>
+>In the case of fermion electron gas, we will see that these product state, basis states (in the occupation bases
+>**or exactyly eigenstate of hamiltonian**),we can therefor trivially read off the energy of the full system 
+> by just knowing un the energies of the individual orbitals and how many electrons either zero or one occupy 
+> each of these orbitals
+>
+>
+>
+#### tight binding models
+##### 简介
+> 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
+> 
+> tight binding models (紧束缚模型)： 这些模型中，电子之间仍然没有相互作用。相互之间的库伦势被屏蔽掉了（that's been shielded or screened away）
+> but allow electrons to move from one orbital to another (允许电子从一个轨道跑到另一个轨道), of course this means the eigenstates 
+> are going to be superpositions of the product state bases involving electron in specific orbitals(本征态会变得互相叠加,也就是让
+> 电子会跑到特殊的轨道上)。
+> 
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
