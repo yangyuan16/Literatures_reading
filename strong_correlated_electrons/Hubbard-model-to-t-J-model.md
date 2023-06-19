@@ -38,6 +38,8 @@
 1\\
 \end{pmatrix}$$
 >
+>参考youyube 上的视频教程[fermionic creation and annihilation operators](https://www.youtube.com/watch?v=HZ43XE89n8s)
+>费米子满足的运算规则如下：
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
