@@ -18,7 +18,7 @@
 0&1\\
 0&0\\
 \end{pmatrix}$$ 
->$$f_0^{\dagger} = \begin{pmatrix}
+> $$f_0^{\dagger} = \begin{pmatrix}
 0&0\\
 1&0\\
 \end{pmatrix}$$
