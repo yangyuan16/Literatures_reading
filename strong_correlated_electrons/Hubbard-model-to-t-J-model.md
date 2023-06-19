@@ -57,7 +57,7 @@
 > 
 > $$\hat{H}=\sum_{k}\epsilon_k c_k^{\dagger} c_k = \sum_k \epsilon_k n_k$$
 >
-> 而 $|k\rangle=|\hat{n_k} \ranlge_k $, $n_k = 0, 1$, 且 $\hat{n_k}|k\rangle = n_k$
+> 而 $|k\rangle=|\hat{n}_k\ranlge_{k}$, $n_k = 0, 1$, 且 $\hat{n_k}|k\rangle = n_k$
 > 
 > 用矩阵的形式写一下：
 >
@@ -68,9 +68,38 @@ $$
 0 & 0 \\
 1 & 0 \\
 \end{array}
+\right] \cdot \left[
+\begin{array}{cc}
+0 & 1 \\
+0 & 0 \\
+\end{array} 
+\right] = \left[
+\begin{array}{cc}
+0 & 0 \\
+0 & 1 \\
+\end{array}
 \right]
 $$
-> 
+>作用于本征态上
+$$\left[
+\begin{array}{cc}
+0 & 0 \\
+0 & 1 \\
+\end{array}
+\right] \left[
+\beign{array}{c}
+0 \\
+1 \\
+\end{array}
+\right] = \left[
+\beign{array}{c}
+0 \\
+1 \\
+\end{array}
+\right]
+$$
+
+
 > $$
 > \hat{c_k^{\dagger}} \hat{c_k} = 
 > \begin{pmatrix}
