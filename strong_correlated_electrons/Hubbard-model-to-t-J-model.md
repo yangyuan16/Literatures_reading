@@ -84,22 +84,22 @@ $$
 作用于本征态上:
 
 $$
-\hat{c}_k^{\dagger} \hat{c}_k = \left[ 
+\left[ 
 \begin{array}{cc}
 0 & 0 \\
-1 & 0 \\
+0 & 1 \\
 \end{array}
 \right] \cdot \left[
 \begin{array}{cc}
-0 & 1 \\
-0 & 0 \\
+0 \\
+1 \\
 \end{array} 
 \right] = \left[
 \begin{array}{cc}
-0 & 0 \\
-0 & 1 \\
+0 \\
+1 \\
 \end{array}
-\right]
+\right] = |1\rangle
 $$
 
 
