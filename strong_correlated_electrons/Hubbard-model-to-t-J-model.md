@@ -80,7 +80,9 @@ $$
 \end{array}
 \right]
 $$
+
 >作用于本征态上
+
 $$\left[
 \begin{array}{cc}
 0 & 0 \\
