@@ -85,24 +85,24 @@ $$
 
 $$
 |n_k\rangle|1\rangle
-\left[
+\left \[
 \begin{array}{cc}
 0 & 0 \\
-0 & 1 \\
+0 & 1 
 \end{array}
-\right] 
-\left[
+\right\] 
+\left\[
 \beign{array}{c}
 0 \\
-1 \\
+1 
 \end{array}
-\right] =
-\left[
+\right\] =
+\left\[
 \beign{array}{c}
 0 \\
-1 \\
+1 
 \end{array}
-\right]
+\right\]
 $$
 
 
