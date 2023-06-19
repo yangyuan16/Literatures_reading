@@ -23,8 +23,21 @@
 0&0\\
 1&0\\
 \end{pmatrix}$$
-
-
+>
+> $$f_0|1\rangle = |0\rangle = \begin{pmatrix}
+1\\
+0\\
+\end{pmatrix}$$
+>
+> $$f_0|0\rangle = 0$$
+>  
+> $$ f_0^{\dagger}|1\rangle = 0$$
+>
+> $$ f_0^{\dagger}|0\rangle = |1\rangle = \begin{pmatrix}
+0\\
+1\\
+\end{pmatrix}$$
+>
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
