@@ -168,7 +168,8 @@ if act the hamiltonian on single particle state $t_{ij}c_i^{\dagger}c_j$ 中的 
 the particle in state $|j\rangle$ that is the $c_i^{\dagger}$ 会在state |i\rangle 产生一个电子，
 因此 $\langle i | \hat{H} | j \rangle = t_{ij}$
 
-#####考虑一个简单的例子：2-site system (2 格点系统)，
+##### 考虑一个简单的例子：2-site system (2 格点系统)
+
 we will have a single particle energy for orbital one which we call $\epsilon_1$, 
 and the energy is depend whether or not that orbital is occupied. 
 Let us have another energy $\epsilon_2$ associated with orbital two, they are single partile particle 
@@ -220,6 +221,16 @@ $$\hat{H}|1,0\rangle = \epsilon_1|1,0\rangle + t|0,1\rangle$$
 同样，这样的state 也不是一个本征态。it is a linear combination of $|0,1\rangle$ and $|1,0\rangle$ that will be 
 eigenstates (**如果将$|0,1\rangle$和$|1,0\rangle$线性叠加起来，将会是一个本征态**。因此也就会满足 schordinger equation)
 
+**为什么**state $|0,1\rangle$ and states $|1,0\rangle$ **不是哈密顿的本征态呢**，**这是因为这两个 basis states 对应的粒子数** 
+$n_1$ and $n_2$ are not good quantum numbers (**并不是好的量子数** )，也就是这样的量子数并不是一个守恒量（conversed）,
+我是怎么知道这两个量子数不是**好量子数**，不是守恒量呢，因为
+
+$$[\hat{H}, \hat{n}_i] \neq 0$$
+
+一个电子并不是一个好的守恒量，因为它可以从轨道1 跑到 轨道2. So we can not label eigenstates of H according
+the individual occupation numbers of the orbitals, because those things are not conseved.
+However the total electron number which is the sum of the individual occupation numbers is conserved 
+因此total electron number 是一个好的量子数，可以用其标记本征态。
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
