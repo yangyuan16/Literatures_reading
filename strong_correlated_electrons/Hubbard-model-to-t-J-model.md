@@ -57,17 +57,21 @@
 > 
 > $$\hat{H}=\sum_{k}\epsilon_k \c_k^{\dagger} \c_k = \sum_k \epsilon_k \n_k$$
 >
-> 而 $|k\rangle = |\hat{n_k}\ranlge_k$, $n_k = 0, 1$, 且 $\hat{n_k}|k\rangle = n_k$
+> 而 $|k\rangle = |\hat{n_k}\ranlge_k $, $n_k = 0, 1$, 且 $\hat{n_k}|k\rangle = n_k$
 > 
 > 用矩阵的形式写一下：
 >
-> $$ \hat{c_k^{\dagger}} \hat{c_k} = \begin{pmatrix}
+> $$ 
+> \hat{c_k^{\dagger}} \hat{c_k} = 
+> \begin{pmatrix}
 > 0 & 0 \\
 > 1 & 0 \\
-> \end{\pmatrix} \cdot \begin{pmatrix} 
+> \end{\pmatrix} \cdot 
+> \begin{pmatrix} 
 > 0 & 1 \\
 > 0 & 0 \\
-> \end{pmatrix} = \begin{pmatrix}
+> \end{pmatrix} = 
+> \begin{pmatrix}
 > 0 & 0 \\
 > 0 & 1 \\
 > \end{pmatrix}$$
