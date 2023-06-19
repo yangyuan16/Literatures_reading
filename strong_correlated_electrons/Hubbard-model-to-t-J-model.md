@@ -134,7 +134,15 @@ $$
 
 $$\hat{H}|n_1,n_2,...n_m\rangle = E_{n_1,n_2,...,n_m}|n_1,n_2,...,n_m\rangle$$ 
 
-where $E_{n_1,n_2,...,n_m} = \sum_i \epsilon_i n_i$
+where $E_{n_1,n_2,...,n_m} = \sum_i \epsilon_i n_i$, these states are eigen states of the hamiltonian precisely
+because the hamiltonian is just a sum of the number operators and we know these states are eigenstates of the number 
+operators 
+#### Fermi-Dirc distribution
+##### 简介
+>
+>
+>
+
 #### tight binding models
 ##### 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
