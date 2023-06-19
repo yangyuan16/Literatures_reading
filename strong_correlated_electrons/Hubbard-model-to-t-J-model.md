@@ -81,7 +81,7 @@ $$
 \right]
 $$
 
->作用于本征态上
+作用于本征态上
 
 $$
 |n_k\rangle|1\rangle
@@ -89,20 +89,15 @@ $$
 \begin{array}{cc}
 0 & 0 \\
 0 & 1 
-\end{array}
-\right\] 
-\left\[
+\end{array} \right\] \left\[
 \beign{array}{cc}
 0 \\
 1 
-\end{array}
-\right\] =
-\left\[
+\end{array} \right\] = \left\[
 \beign{array}{cc}
 0 \\
 1 
-\end{array}
-\right\]
+\end{array} \right\]
 $$
 
 
