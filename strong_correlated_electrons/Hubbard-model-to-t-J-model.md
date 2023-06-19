@@ -155,6 +155,71 @@ operators
 $$ \hat{H} = \sum_i \epsilon_i c_i^{\dagger} c_i + \sum_{i,j}t_{i,j}c_i^{\dagger}c_j$$ 
 
 where $\epsilon_i c_i^{\dagger}c_i$ is the potential energy (势能), $t_{ij}c_i^{\dagger}c_j$ 是kinetic energy. 
+which is to do with the quantum tunneling between orbitals i and j, $t_{is}$ is the so-called tunneling matrix elements
+which can be considered as following: 
+
+(1) consider single particle states (考虑单粒子态)：比如state $|j\rangle$ is obtained from the vacuum by creating 
+an electron in orbital j, so $|j\rangle = c_j^{\dagger}|voc\rangle$.
+what is the elements between a single particle state j and a single particle state 
+
+$$\langle i| \hat{H} | j \rangle$$
+
+if act the hamiltonian on single particle state $t_{ij}c_i^{\dagger}c_j$ 中的 $c_j$ will destroy that 
+the particle in state $|j\rangle$ that is the $c_i^{\dagger}$ 会在state |i\rangle 产生一个电子，
+因此 $\langle i | \hat{H} | j \rangle = t_{ij}$
+
+#####考虑一个简单的例子：2-site system (2 格点系统)，
+we will have a single particle energy for orbital one which we call $\epsilon_1$, 
+and the energy is depend whether or not that orbital is occupied. 
+Let us have another energy $\epsilon_2$ associated with orbital two, they are single partile particle 
+energies and this time we are going to allow **electrons to tunnel from orbital one to orbital two**,
+we have 
+
+$$\hat{H} = \epsilon_1 \hat{n}_1 + \epsilon_2 \hat{n}_2 + t(c_1^{\dagger}c_2 + c_2^{\dagger}c_1)$$
+
+and you see that I have enforced the hermeticity of the hamiltonian by factorizing out a commom t here,
+(hermrticity hamiltonian will have the real eigenstates and eigenvalues). Notice that the term $c_1^{\dagger}c_2$ corresponding
+to the tunneling of an electron from one to two and is not hermitian. (单这一项并不厄密) 然而 $c_1^{\dagger}c_2$ 和 $c_2^{\dagger}c_1$
+是一对 Hermitian conjugates 也就是互为厄密 $(c_1^{\dagger}c_2)^{\dagger} = c_2^{\dagger}c_1$.
+**we can also regard this hermiticity property as being like a time reversal symmetry (也将这样的厄密性视作时间反演对称)**,
+or we saying the tunneling rate of electrons going from one to two must be the same as the tunneling from two to one, we
+are allowing for this microscopic reversibility (微观反演性质) of electrons going from 1 to 2 or 2 to 1 with same amplitude.
+
+##### 求解这个两格点系统，首先考虑粒子数表象的 basis states, 测试 basis states 是否是 eigen states
+solving this model at least let us see what we get when we consider our usual basis states:
+
+basis states for this two orbital system will be defined by the occupation numbers :
+
+$$|n_1,n_2\rangle$$ 
+
+with $n_1 = 0 or 1$, $n_2 = 0 or 1$.
+
+第一种情况，total number of electron number zero, this is the vacuum state N = 0:
+
+$$\hat{H}|0,0\rangle = 0 |0,0\rangle$$
+
+也就是说 state $|0,0\rangle$ is the eigenstate of $\hat{H}$ with energy 0
+
+考虑第二种情况，N = 2
+
+$$\hat{H}|1,1\rangle = (\epsilon_1 + \epsilon_2)|1,1\rangle$$,
+
+也就是说state $|1,1\rangle$ is also eigenstate with energy $\epsilon_1 + \epsilon_2$, is the sum of single particel energies.
+
+考虑第三种情况，N=1, 
+
+$$\hat{H}|0,1\rangle = \epsilon_2|0,1\rangle + t c_1^{\dagger}c_2|0,1\rangle = \epsilon_2|0,1\rangle + t c_1^{\dagger}c_2c_2^{\dagger}|vac\rangle
+=\epsilon_2|0,1\rangle + t|1,0\rangle$$
+
+so I create an electron in the vacuum then I destroy it and then I create another electron in orbital 1.
+**so $|0,1\rangle$ is not the eigenstate** ($|0,1\rangle$并不是本征态)
+同样的可以得到：
+
+$$\hat{H}|1,0\rangle = \epsilon_1|1,0\rangle + t|0,1\rangle$$
+
+同样，这样的state 也不是一个本征态。it is a linear combination of $|0,1\rangle$ and $|1,0\rangle$ that will be 
+eigenstates (**如果将$|0,1\rangle$和$|1,0\rangle$线性叠加起来，将会是一个本征态**。因此也就会满足 schordinger equation)
+
 #### t-J model
 ##### 简介
 > (2) 周期边界下超对称 t-J 模型的精确解可以给出 Luttinger液体的物理图像
