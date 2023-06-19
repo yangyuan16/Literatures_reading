@@ -84,7 +84,7 @@ $$
 作用于本征态上:
 
 $$
-|\hat{n}_k\rangle|1\rangle=
+\hat{n}_k|1\rangle=
 \left[ 
 \begin{array}{cc}
 0 & 0 \\
@@ -104,7 +104,7 @@ $$
 $$
 
 $$
-|\hat{n}_k\rangle|0\rangle=
+\hat{n}_k|0\rangle=
 \left[ 
 \begin{array}{cc}
 0 & 0 \\
@@ -123,8 +123,18 @@ $$
 \right] = 0
 $$
 
-
+>$\epsilon_k$ is the single particle energy of state, this is like the potensial energy of praticular orbital(有点像轨道上的势能),
+> 系统的总能量就是所有轨道势能之和，也就是所有粒子能量的和 
 >
+> 这个系统的本征态是什么呢？
+> $[\hat{H},\hat{n}_k] = 0$ 也就是 {$n_k$} conseved by $\hat{H}$, 是一个好量子数。
+> good quantum numbers to describe the eigenstates of this quantum hamiltonian.
+> 也就是我们用占据数所写的态就是这个哈密顿量的本征态。
+> 假设系统有 m 个轨道：
+
+$$\hat{H}|n_1,n_2,...n_m\rangle = E_{n_1,n_2,...,n_m}|n_1,n_2,...,n_m\rangle$$ 
+
+where $E_{n_1,n_2,...,n_m} = \sum_i \epsilon_i n_i$
 #### tight binding models
 ##### 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
