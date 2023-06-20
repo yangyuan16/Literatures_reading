@@ -281,5 +281,20 @@ are the $\Pi$ electrons):
 $$\hat{H}_{\pi} = \epsilon \sum_{i=1}^{6} c_i^{\dagger}c_i + t\sum_{i=1}^{6}c_{i}^{\dagger}c_{i+1}+c_{i+1}^{\dagger}c_i$$
 
 求解这样的模型，我们会发现，分子轨道 （molecular orbitals were there would be the eigenvectors of the Schrodinger equation to 
-be basiclly the wave functions and we'd be able to find out the energies of the electrons in the system as well）
+be basiclly the wave functions and we'd be able to find out the energies of the electrons in the system as well,）
 
+# 考虑石墨烯系统：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene.png) 
+
+The graphene structure is actually held together by these Sigma bonds which are made up from sp2 hybridized carbon or orbitals 
+on each atom but these orbitals overlap on the lattice each carbon atom contributes one electron per sp2 hybridized orbitall and 
+there for each chemical bond has two electrons in it one contributed from each of the atoms and these chemical are therefor very stable
+, the entire hexagonal 2d lattice structure of graphene is extremely stable however we're not yet considerd the $P_z$ orbitals that
+stick above and below the plane and these form the $\Pi$ bonding Network that I want to discuss in more detail:
+(石墨烯结构实际上是由这些sigma键连接在一起的，sigma键由sp2杂化的碳或每个原子上的轨道组成，石墨烯的整个六边形2d晶格结构是非常稳定的，
+然而我们还没有考虑粘在平面上方和下方的$P_z$轨道，这些轨道形成了我想更详细讨论的$\Pi$键合网络：)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_2.png) 
+
+可以看到 $\Pi$-bond 形成的 Network 仍然是一个六角格子。
