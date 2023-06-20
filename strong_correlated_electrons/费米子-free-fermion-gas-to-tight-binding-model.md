@@ -410,7 +410,25 @@ the single particle states from these operators $F_k$ (可以看出准粒子刚�
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_21.png)
 
+**对于单粒子态:**
+
 **注意准粒子对应的真空态是有着N个电子的整个系统的真空，对应的Hilbert space 是没有电子的 Hilbert space (Hilbert space with 0 electron),**
 **而准粒子产生的态|k=2>对应着希尔伯特空间中只有一个电子的state (Hilbert space with 1 electron)** 
 **也就是|k=1>=|1,0,0,0,0,...>** 而 **k=2 意味着在第二个orbital 上有一个粒子 |k=2>=|0,1,0,0,0,0,0,>**
 **|k> is already in the diagonalized basis**
+
+**对于多粒子态:**
+
+$$|n_1,n2_,n_3,...> = \oplus_{i}^{N}n_k|K>$$ 
+
+比如对于两个粒子的系统：
+
+$$|K=1> = |1,0>$$, 
+
+$$|k=2> = |0,1>$$
+
+$$|1,1> = |1,0> \oplus |0,1>$$
+
+这里的 $\oplus$ 并不是线性叠加。
+
+**如何理解准粒子的本征态和本征能量呢？**
