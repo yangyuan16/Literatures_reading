@@ -276,6 +276,8 @@ below the plane , I've illustrated that here by the green and the yellow lines:
 plane of the molecule so the sp2 hybridized carbons that are holding the molecule together are just forming 
 the chemical bonds and actually they're a litte boring. Just writting for the electrons that can move around which 
 are the $\Pi$ electrons):
+
+
 $$\hat{H}_{\pi} = \epsilon \sum_{i=1}^{6} c_i^{\dagger}c_i + t\sum_{i=1}^{6}c_{i}^{\dagger}c_{i+1}+c_{i+1}^{\dagger}c_i$$
 
 求解这样的模型，我们会发现，分子轨道 （molecular orbitals were there would be the eigenvectors of the Schrodinger equation to 
