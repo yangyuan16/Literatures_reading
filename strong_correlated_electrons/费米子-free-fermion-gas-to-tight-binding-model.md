@@ -389,5 +389,28 @@ F and C are vectors of operators and U here is our unitary matrix. U 可以是�
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_17.png)
  
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_17.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_18.png)
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_19.png)
+
+$F_k$ 可以被视作是 quasi particle (准粒子), which means it's a superposition of the single particle states,
+in the real space, meaning that I can expand it in term of these coefficients. So we can understand something about
+the single particle states from these operators $F_k$ (可以看出准粒子刚好是很多单子态对于的线性叠加，整个哈密顿就变成了一个
+单准粒子势能项，之所以会发生这样的变换就是把最初的哈密顿里面的所有格点的费米子算符看作一个矢量，相当于将算符变作了构成哈密顿的基矢量，
+这样的化，准粒子算符其实就是对所有格点费米子算符的线性叠加。于是准粒子的概念就产生了，是一种集体模式。这些集体模式之间没有了
+单个电子隧穿tunneling 的这种图像。) 下面的示意图表示如此：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_20.png)
+
+相当于从有couple 的 orbital 变成了无couple orbital 
+
+当格点数也就是电子数 N 变得无限大的时候，整个系统就变成了准粒子（quasi particle）的无相互作用电子气体模型（free electron model）。
+
+**接下来我们讨论一下 sigle particle state 和 many particle state 的 difference**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_21.png)
+
+**注意准粒子对应的真空态是有着N个电子的整个系统的真空，对应的Hilbert space 是没有电子的 Hilbert space (Hilbert space with 0 electron),**
+**而准粒子产生的态|k=2>对应着希尔伯特空间中只有一个电子的state (Hilbert space with 1 electron)** 
+**也就是|k=1>=|1,0,0,0,0,...>** 而 **k=2 意味着在第二个orbital 上有一个粒子 |k=2>=|0,1,0,0,0,0,0,>**
+**|k> is already in the diagonalized basis**
