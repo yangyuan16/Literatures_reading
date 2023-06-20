@@ -306,7 +306,6 @@ stick above and below the plane and these form the $\Pi$ bonding Network that I 
 ## 如何求解这样的哈密顿呢？
 ### 方案一：将矩阵形式写出来，然后进行对角化
 
-### 方案二：对哈密顿里面的算符进行正则变换（performing a canonical transformatiion of the operators in the Hamiltonian）
 对于非相互作用的费米子系统，可以方案二是最有效的，可以将哈密顿通过正则变换变为对角形式。
 constrating and diagnolizing the Hamiltonian matrix in the **many-particle basis** (多粒子基矢)。
 什么是多粒子基矢量呢，比如 2-particle system 中：
@@ -327,12 +326,14 @@ Let's just write again our basis transformation equation
 这样哈密顿量就会变为对角哈密顿量。
 
 如何找到这样的变换矩阵 U 呢？
+
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_6.png) 
 
-用两轨道举例：
+**用两轨道举例：**
+
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_7.png) 
 
-写成矩阵形式：
+**写成矩阵形式：**
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_8.png) 
 
@@ -341,10 +342,52 @@ Let's just write again our basis transformation equation
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_9.png) 
 
-可以看出哈密顿并不能改变粒子数的数量，也就是矩阵元素中 $<N=0|H|N=1> =0$, $<N=0|H|N=2>=0$, $<N=1|H|N=2>=0$.
+可以看出哈密顿并不能改变粒子数的数量，也就是矩阵元素中 <N=0|H|N=1> =0, <N=0|H|N=2>=0, <N=1|H|N=2>=0.
 
 **这样的分块对角矩阵意味着我们可以在每个量子数$N$的块里面分别进行对角化**。
 比如对于 N=1 的sector, 我们可以写为：
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_10.png) 
 
 **接下来求解薛定谔方程**
+进行矩阵变换：
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_11.png) 
+
+**考虑 N=1 sector 的对角化**
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_12.png) 
+
+**小结**
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_13.png) 
+
+这一方案可以处理有相互作用的系统(it can be generalized to interating systems), we can obtain eigenstates that are already
+in many particle bases.
+这一方案的缺点就是哈密顿系统随着格点增加变得指数增长。另一个缺点是，it's not completely physically obvious what the interpretation of the
+eigenstates. it is really a numerical method we get a numerical solution. The physical content of the solution is not
+completely obvious. 
+
+**为什么没有相互作用的哈密顿，也就是只包含动能项和势能项，也就只包含两费米子算符项的哈密顿可以很好的找到幺正变换使得其很好的对角化呢？**
+
+### 方案二：对哈密顿里面的算符进行正则变换（performing a canonical transformatiion of the operators in the Hamiltonian）
+
+It is economical transformation of the Fermionic operators, which brings our hamiltonian operator to diagonal form.
+
+什么是正则变换，canonical transformation is one which preserves the anticommutation relations of the original 
+thermionic operators. 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_14.png) 
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_15.png) 
+
+将 所有格点的 $c_i$ 算符排成一个矢量，通过特定的变换，变成 $F$ 算符矢量：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_16.png) 
+
+F and C are vectors of operators and U here is our unitary matrix. U 可以是任意是幺正矩阵，变换完之后的F满足和C一样的反对易关系。
+
+**The question is how can we utilize this idea this concept of canonical transformation of operators how can we**
+**utilize this to actually do the work of solving our Schrodinger equation as we will see not all hamiltonians can**
+**be solved in this way. In fact, it is only these quadratic Hamiltonians that only involve pairs of operators that**
+**can be solved using a canonical transformation (只有不含相互作用的哈密顿量才可以用这一方法求解)**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_17.png)
+ 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_17.png)
+
