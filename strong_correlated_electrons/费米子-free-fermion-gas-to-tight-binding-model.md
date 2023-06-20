@@ -1,5 +1,5 @@
-### Free electron gas
-##### 简介
+# Free electron gas
+## 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
 >
 >**how many electrons are occupying each of these quantum orbitals?**
@@ -93,14 +93,15 @@ $$\hat{H}|n_1,n_2,...n_m\rangle = E_{n_1,n_2,...,n_m}|n_1,n_2,...,n_m\rangle$$
 where $E_{n_1,n_2,...,n_m} = \sum_i \epsilon_i n_i$, these states are eigen states of the hamiltonian precisely
 because the hamiltonian is just a sum of the number operators and we know these states are eigenstates of the number 
 operators 
-### Fermi-Dirc distribution
-##### 简介
+
+# Fermi-Dirc distribution
+## 简介
 >
 >
 >
 
-### tight binding models -1
-##### 简介
+# tight binding models -1
+## 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
 > 
 > tight binding models (紧束缚模型)： 这些模型中，电子之间仍然没有相互作用。相互之间的库伦势被屏蔽掉了（that's been shielded or screened away）
@@ -124,7 +125,7 @@ if act the hamiltonian on single particle state $t_{ij}c_i^{\dagger}c_j$ 中的 
 the particle in state $|j\rangle$ that is the $c_i^{\dagger}$ 会在state |i\rangle 产生一个电子，
 因此 $\langle i | \hat{H} | j \rangle = t_{ij}$
 
-##### 考虑一个简单的例子：2-site system (2 格点系统)
+## 考虑一个简单的例子：2-site system (2 格点系统)
 
 we will have a single particle energy for orbital one which we call $\epsilon_1$, 
 and the energy is depend whether or not that orbital is occupied. 
@@ -142,7 +143,7 @@ to the tunneling of an electron from one to two and is not hermitian. (单这一
 or we saying the tunneling rate of electrons going from one to two must be the same as the tunneling from two to one, we
 are allowing for this microscopic reversibility (微观反演性质) of electrons going from 1 to 2 or 2 to 1 with same amplitude.
 
-##### 求解这个两格点系统，首先考虑粒子数表象的 basis states, 测试 basis states 是否是 eigen states
+## 求解这个两格点系统，首先考虑粒子数表象的 basis states, 测试 basis states 是否是 eigen states
 solving this model at least let us see what we get when we consider our usual basis states:
 
 basis states for this two orbital system will be defined by the occupation numbers :
@@ -188,8 +189,8 @@ the individual occupation numbers of the orbitals, because those things are not 
 However the total electron number which is the sum of the individual occupation numbers is conserved 
 因此total electron number 是一个好的量子数，可以用其标记本征态。
 
-###tight binding models -2
-##### 简介
+# tight binding models -2
+## 简介
 > 参考youtube视频教程[Tight-binding models](https://www.youtube.com/watch?v=GFZ3Asw4dc4&list=PLotxEOxVaaoKRXdDN-7lI3Y88PaHqyOZL&index=15)
 
 Tight-binding models 通常用来描述非相互作用费米子系统，通过能带结构可以理解很多材料的性质。例如一些分子系统，
@@ -248,7 +249,7 @@ the amplitude for doing that is precisely the tunneling matrix elements $t_{ij}$
 所以原子轨道之间的ovelap意味着这些原子轨道在它们自己的电子上不是定义明确的量子态，在这样的原子轨道中，它们的寿命是有限的，
 因为它们可以量子隧穿到晶格上的相邻位置，而这样做的幅度正是最近相邻位置i和j之间的隧穿矩阵元素$t_{ij}$。
 
-*考虑苯分子的 tight-binding-model:
+## 考虑苯分子的 tight-binding-model:
 
 对于这个六角结构(hexagonal structure) this is so called sp2 hybridization that works for hybriding an S orbital in 
 catbon with px and py orbitals to form this sp2 hybridized object and that's looks like the bonds with the angle
@@ -268,7 +269,7 @@ below the plane , I've illustrated that here by the green and the yellow lines:
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/benzene_3.png) 
 
->* 这样的一个苯环系统的哈密顿是什么样的呢？ what it looks like ?
+## 这样的一个苯环系统的哈密顿是什么样的呢？ what it looks like ?
 
 由于 sp2 杂化已经成键(形成sigma bonding)，因子只有 pz 轨道上的电子是自由电子，这样的电子称为 $\Pi$ electrons:
 (just writing for the $\Pi$ bonding orbitals so these are the set of six $p_z$ orbitals that are out of the 
@@ -276,7 +277,8 @@ plane of the molecule so the sp2 hybridized carbons that are holding the molecul
 the chemical bonds and actually they're a litte boring. Just writting for the electrons that can move around which 
 are the $\Pi$ electrons):
 
-$$\hat{H}_{\pi} = \epsilon \sum_{i=1}^{6} c_i^{\dagger} c_i + t \sum_{i=1}^{6} c_{i}^{\dagger}c_{i+1} + c_{i+1}^{\dagger}c_{i}$$
+$$\hat{H}_{\pi} = \epsilon \sum_{i=1}^{6} c_i^{\dagger}c_i + t\sum_{i=1}^{6}c_{i}^{\dagger}c_{i+1}+c_{i+1}^{\dagger}c_i$$
+
 
 求解这样的模型，我们会发现，分子轨道 （molecular orbitals were there would be the eigenvectors of the Schrodinger equation to 
 be basiclly the wave functions and we'd be able to find out the energies of the electrons in the system as well）
