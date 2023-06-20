@@ -209,3 +209,10 @@ $$\hat{H} = \sum_{i,j} t_{ij}(c_i^{\dagger} c_j + c_j^{\dagger} c_i) + \sum_i \e
 the sum is over orbitals or lattice sites of the system labeled i and j. $t_{ij}$ is the tunneling matrix element between
 those orbitals or sites. $c_i^{\dagger}$ creates an electron in orbital site i and $c_j$ annihilates an electron in orbital j.
 Also, becase of the property of hermiticity of hamiltonian , $t_{ij}$ must be equal to $t_{i,i}^*$. 
+
+只考虑近邻的 orbital 之间的跃迁，just have the sum over of nearest neighbors. this model describes a set of quantum orbitals labeled
+by i each with energy $\epsilon_i$ and a tunneling matrix elements $t_{ij}$, which describes the movements of an electron from orbital i to 
+one of its neighbors j. 
+
+这种形式的Hamiltonians are said to be quadratic (二次型的) because we just see pairs of creation and annihilation operators (因为只能看到成对的
+产生和湮灭算符，这里并没有四个费米子算符项，如果是在有相互作用的模型中，就会出现四费米子算符项)
