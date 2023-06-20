@@ -237,3 +237,47 @@ each of the lattice sites:
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/2d_square_p_orbital.png) 
 
+electron can tunnel effectively from one atom to the next on the lattice beacuse of the overlap of the 
+atomic orbitals and of course this is what a chemical bond is (这就是所谓的化学成键) the reason why the lattice adopts
+this lattice structure is precisely because the electrons can form these chemical bonds (电子会形成这样的化学键) in this 
+arrangement the electrons are shared between the atoms and become itinerant meaning they can move throughout the lattice so
+the ovelap between the atomic orbitals means these atomic orbitals are not well-defined quantum states on their own electrons
+in such atomic orbitals have a finite lifetime since they can quantum tunnel to a neighboring site on the crystal lattice and 
+the amplitude for doing that is precisely the tunneling matrix elements $t_{ij}$ between nearest neighbor sites i and j. 
+
+所以原子轨道之间的ovelap意味着这些原子轨道在它们自己的电子上不是定义明确的量子态，在这样的原子轨道中，它们的寿命是有限的，
+因为它们可以量子隧穿到晶格上的相邻位置，而这样做的幅度正是最近相邻位置i和j之间的隧穿矩阵元素$t_{ij}$。
+
+*考虑苯分子的 tight-binding-model:
+
+对于这个六角结构(hexagonal structure) this is so called sp2 hybridization that works for hybriding an S orbital in 
+catbon with px and py orbitals to form this sp2 hybridized object and that's looks like the bonds with the angle
+between these bonds being exactly 120 degrees and then there are these additonal pz orbitals which stick up above and 
+below the plane of the molecule and they form the so-called $\pi$ bonding Network where we have delocalized electrons that 
+can move around so they are delocalized , let's see how this looks, here:
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/benzene.png) 
+
+in blue I have again drawn the atomic nuclei which in this case is carbon and I've tried to draw it here in perspective
+actually of course this is a perfect hexagon. 将 pz orbital 也画出来：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/benzene_2.png) 
+
+each of pz orbital contains a single electron and the electron can actually tunnel from one orbital to another above and 
+below the plane , I've illustrated that here by the green and the yellow lines:
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/benzene_3.png) 
+
+>* 这样的一个苯环系统的哈密顿是什么样的呢？ what it looks like ?
+
+由于 sp2 杂化已经成键(形成sigma bonding)，因子只有 pz 轨道上的电子是自由电子，这样的电子称为 $\Pi$ electrons:
+(just writing for the $\Pi$ bonding orbitals so these are the set of six $p_z$ orbitals that are out of the 
+plane of the molecule so the sp2 hybridized carbons that are holding the molecule together are just forming 
+the chemical bonds and actually they're a litte boring. Just writting for the electrons that can move around which 
+are the $\Pi$ electrons):
+
+$$\hat{H}_{\pi} = \epsilon \sum_{i=1}^{6} c_i^{\dagger} c_i + t \sum_{i=1}^{6} c_{i}^{\dagger}c_{i+1} + c_{i+1}^{\dagger}c_{i}$$
+
+求解这样的模型，我们会发现，分子轨道 （molecular orbitals were there would be the eigenvectors of the Schrodinger equation to 
+be basiclly the wave functions and we'd be able to find out the energies of the electrons in the system as well）
+
