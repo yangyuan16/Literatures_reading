@@ -229,6 +229,11 @@ this is something that is relevant to the description of high-temperature superc
 for example the perovskites yttrium barium copper oxide (钙钛矿钇钡铜氧化物) wich contain 2d square lattice planes of 
 copper oxide let us draw a sketch of that arrangement 
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/2d_square.png) 
+
 consider the p orbitals (考虑每个原子的p轨道) of each atom for example the px and py orbitals and pz orbitals will be 
 pointing out of the page and we will ignore those in this analysis so how does it look when we put those oritals on 
 each of the lattice sites:
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/2d_square_p_orbital.png) 
+
