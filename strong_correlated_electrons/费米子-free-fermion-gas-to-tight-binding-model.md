@@ -216,3 +216,18 @@ one of its neighbors j.
 
 这种形式的Hamiltonians are said to be quadratic (二次型的) because we just see pairs of creation and annihilation operators (因为只能看到成对的
 产生和湮灭算符，这里并没有四个费米子算符项，如果是在有相互作用的模型中，就会出现四费米子算符项)
+
+**这样的 tight-binding-model 描述的是什么样的系统呢？**
+for example we can describe materials where we have atomic orbitals on particular atoms arranged into a lattice 
+so that the atomic orbitals overlap (原子轨道之间会overlap), electrons can tunnel from one orbital to the other in the 
+metal for example, (比如在金属中) the electrons can actually roam freely over the entire structure (电子可以很自由的在整个
+结构中出现) 
+
+##### as an example, 考虑一个 2d square crystal lattice
+
+this is something that is relevant to the description of high-temperature superconductors (一定程度上可以描述高温超导),
+for example the perovskites yttrium barium copper oxide (钙钛矿钇钡铜氧化物) wich contain 2d square lattice planes of 
+copper oxide let us draw a sketch of that arrangement 
+
+consider the p orbitals (考虑每个原子的p轨道) of each atom for example the px and py orbitals and pz orbitals will be 
+pointing out of the page and we will 
