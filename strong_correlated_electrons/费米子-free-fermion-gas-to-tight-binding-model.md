@@ -405,6 +405,7 @@ the single particle states from these operators $F_k$ (可以看出准粒子刚�
 相当于从有couple 的 orbital 变成了无couple orbital 
 
 当格点数也就是电子数 N 变得无限大的时候，整个系统就变成了准粒子（quasi particle）的无相互作用电子气体模型（free electron model）。
+整个系统变成了单粒子的图景。
 
 **接下来我们讨论一下 sigle particle state 和 many particle state 的 difference**
 
@@ -419,7 +420,7 @@ the single particle states from these operators $F_k$ (可以看出准粒子刚�
 
 **对于多粒子态:**
 
-$$|n_1,n2_,n_3,...> = \oplus_{i}^{N}n_k|K>$$ 
+$$|n_1,n_2,n_3,...> = \oplus_{i}^{N}n_k|K>$$ 
 
 比如对于两个粒子的系统：
 
@@ -432,3 +433,12 @@ $$|1,1> = |1,0> \oplus |0,1>$$
 这里的 $\oplus$ 并不是线性叠加。
 
 **如何理解准粒子的本征态和本征能量呢？**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_22.png)
+
+**通过这一图像理解金属和绝缘体**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_23.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_24.png)
+
