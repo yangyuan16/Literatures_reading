@@ -297,4 +297,54 @@ stick above and below the plane and these form the $\Pi$ bonding Network that I 
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_2.png) 
 
-可以看到 $\Pi$-bond 形成的 Network 仍然是一个六角格子。
+可以看到 $\Pi$-bond 形成的 Network 仍然是一个六角格子。每个碳原子在 $p_z$ 轨道上有一个电子。这就是我们在凝聚态物理中
+处理的六角晶格的问题。
+## 写出这个六角格子的哈密顿为：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_3.png) 
+
+## 如何求解这样的哈密顿呢？
+### 方案一：将矩阵形式写出来，然后进行对角化
+
+### 方案二：对哈密顿里面的算符进行正则变换（performing a canonical transformatiion of the operators in the Hamiltonian）
+对于非相互作用的费米子系统，可以方案二是最有效的，可以将哈密顿通过正则变换变为对角形式。
+constrating and diagnolizing the Hamiltonian matrix in the **many-particle basis** (多粒子基矢)。
+什么是多粒子基矢量呢，比如 2-particle system 中：
+
+$|0,0\rangle$, $|0,1\rangle$, $|1,0\rangle$, $|1,1\rangle$ 
+
+这是一组完备正交基矢。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_4.png) 
+
+how can we guarantee that our new basis is complete and orthonomal (如何保证我们新构成的基矢量是正交完备的呢)，
+Let's just write again our basis transformation equation 
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_5.png) 
+
+如何运用这样的基矢量变换来求解 tight-binding-models ? 
+求解Schrodinger equation 就是等价于做这样的一组矢量变换，将原始的基矢量变换为哈密顿的本征基矢量。
+这样哈密顿量就会变为对角哈密顿量。
+
+如何找到这样的变换矩阵 U 呢？
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_6.png) 
+
+用两轨道举例：
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_7.png) 
+
+写成矩阵形式：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_8.png) 
+
+为什么这样的哈密顿会出现分块对角的形式呢？
+原因是**这个哈密顿量中总的电子数是一个守恒量**，
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_9.png) 
+
+可以看出哈密顿并不能改变粒子数的数量，也就是矩阵元素中 $<N=0|H|N=1> =0$, $<N=0|H|N=2>=0$, $<N=1|H|N=2>=0$.
+
+**这样的分块对角矩阵意味着我们可以在每个量子数$N$的块里面分别进行对角化**。
+比如对于 N=1 的sector, 我们可以写为：
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_10.png) 
+
+**接下来求解薛定谔方程**
