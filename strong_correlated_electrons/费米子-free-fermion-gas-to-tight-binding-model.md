@@ -1,4 +1,4 @@
-#### Free electron gas
+### Free electron gas
 ##### 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
 >
@@ -93,13 +93,13 @@ $$\hat{H}|n_1,n_2,...n_m\rangle = E_{n_1,n_2,...,n_m}|n_1,n_2,...,n_m\rangle$$
 where $E_{n_1,n_2,...,n_m} = \sum_i \epsilon_i n_i$, these states are eigen states of the hamiltonian precisely
 because the hamiltonian is just a sum of the number operators and we know these states are eigenstates of the number 
 operators 
-#### Fermi-Dirc distribution
+### Fermi-Dirc distribution
 ##### 简介
 >
 >
 >
 
-#### tight binding models
+### tight binding models -1
 ##### 简介
 > 参考youtube视频教程[Models of many-electron systems in second quantized form](https://www.youtube.com/watch?v=oxsFWuA8zns)
 > 
@@ -187,3 +187,25 @@ $$[\hat{H}, \hat{n}_i] \neq 0$$
 the individual occupation numbers of the orbitals, because those things are not conseved.
 However the total electron number which is the sum of the individual occupation numbers is conserved 
 因此total electron number 是一个好的量子数，可以用其标记本征态。
+
+###tight binding models -2
+##### 简介
+> 参考youtube视频教程[Tight-binding models](https://www.youtube.com/watch?v=GFZ3Asw4dc4&list=PLotxEOxVaaoKRXdDN-7lI3Y88PaHqyOZL&index=15)
+
+Tight-binding models 通常用来描述非相互作用费米子系统，通过能带结构可以理解很多材料的性质。例如一些分子系统，
+and quantum transport through nano wires and other nano devices.
+
+second quantized version of tight binding models also the solution of those models whcih is basically equivalent to 
+solving the Schrodinger equation. I will discuss how one can construct a many particle Hamiltonian matrix and 
+diagonalize that matrix to obtain the solution to type binding models but I will also describe how for tight binding models
+there is a much simpler way which is involves that canonical transformation of the operators to bring the Hamiltonian 
+operator into diagonal form we will see that solution of such model can be interpreted as **band structure in momentum space** 
+(动量空间的能带结构) for periodic systems where such a canonical transformation is actuallly just the Fourier transform.
+
+Most general form of Hamilton 
+
+$$\hat{H} = \sum_{i,j} t_{ij}(c_i^{\dagger} c_j + c_j^{\dagger} c_i) + \sum_i \epsilon_i c_i^{\dagger}c_i$$ 
+
+the sum is over orbitals or lattice sites of the system labeled i and j. $t_{ij}$ is the tunneling matrix element between
+those orbitals or sites. $c_i^{\dagger}$ creates an electron in orbital site i and $c_j$ annihilates an electron in orbital j.
+Also, becase of the property of hermiticity of hamiltonian , $t_{ij}$ must be equal to $t_{i,i}^*$. 
