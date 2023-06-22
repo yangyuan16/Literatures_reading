@@ -411,7 +411,20 @@ the single particle states from these operators $F_k$ (可以看出准粒子刚�
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_20.png)
 
-相当于从有couple 的 orbital 变成了无couple orbital 
+相当于从有couple 的 orbital 变成了decouple orbital 
+
+**可以想象，这些蓝色圈圈的orbital 是原本二维晶格电子orbital 的一种抽象的线性叠加，这种线性叠加就表示蓝色圈圈对应着原本**
+**2d 晶格中所有电子的集体模式，每个每个蓝色圈圈之间都互相独立解耦合，相当于每个蓝色圈圈都是一个准粒子。由于T矩阵对应着粒子**
+**数目N=1的空间，每个准粒子的独立产生或者湮灭，由于准粒子算符是对应着对原本费米产生或者湮灭算符的线性叠加，因子刚好一个准粒子**
+**对应着要么有 1 个电子，要么没有电子。（因为 cc =0, c^+c^+=0）, 这也刚好和 T 矩阵代表N=1的子空间矩阵的含义对应上了**
+
+**从能量的角度考虑，哈密顿能量本真谱对应着粒子数N=1的能量谱, 转换成准粒子，系统相当于变成了自由费米子气体模型**
+**如果用准粒子产生算符在真空|vac>中产生一个准粒子的话, 这样的真空|vac>对应着就是所有电子系统的真空（因为准粒子已经转换到了集体模式）**，
+**也就是系统中没有电子，电子数目为0**
+
+**转换成准粒子，在粒子数目等于1的空间, 也就是:**
+
+$N=\sum_{k}F_k^{\dagger}F_k = 1$
 
 当格点数也就是电子数 N 变得无限大的时候，整个系统就变成了准粒子（quasi particle）的无相互作用电子气体模型（free electron model）。
 整个系统变成了单粒子的图景。
