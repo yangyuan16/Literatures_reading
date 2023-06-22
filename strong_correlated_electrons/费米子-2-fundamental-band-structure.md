@@ -16,3 +16,5 @@
 $$ H = \sum_{i,j}t_{ij}c_i^{\dagger}c_j$$
 
 如果 $i=j$, $t_{ij} = \epsilon_i$
+
+![]()
