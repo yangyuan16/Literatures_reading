@@ -17,4 +17,10 @@ $$ H = \sum_{i,j}t_{ij}c_i^{\dagger}c_j$$
 
 如果 $i=j$, $t_{ij} = \epsilon_i$
 
-![]()
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_1.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_2.png)
+
+## 考虑一些toy models, 1d tight binding model:
+**这是一个单带模型（sing band model）, 因为一个元胞里面只有一个orbital**
+24 mins
