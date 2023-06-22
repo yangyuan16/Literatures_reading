@@ -393,6 +393,15 @@ F and C are vectors of operators and U here is our unitary matrix. U 可以是�
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/tight-binding-model/graphene_19.png)
 
+这里的矩阵 T 事实上可以看作是多粒子的哈密顿处于一个单粒子的部分（many particle Hamiltonian matrix in the single particle
+sector,） 
+**可以比较一下 T 矩阵的结构和两个粒子系统中粒子数N=1的情况时哈密顿的部分，发现结构是一样的**，
+**也就是说 T 矩阵刚好就是原始哈密顿量在粒子数 N=1 的子空间对应的矩阵**。
+**这也就是为什么无相互作用的费米子系统可以看作单粒子问题的原因**
+**只要对 T 矩阵进行对角化就可以得到对原始费米子产生湮灭算符的线性叠加**。
+**而N=1的Hamiltonian对应的粒子数表象基矢量刚好是：|1,0,0,...>, |0,1,0,...>, |0,0,1,...>**
+
+
 $F_k$ 可以被视作是 quasi particle (准粒子), which means it's a superposition of the single particle states,
 in the real space, meaning that I can expand it in term of these coefficients. So we can understand something about
 the single particle states from these operators $F_k$ (可以看出准粒子刚好是很多单子态对于的线性叠加，整个哈密顿就变成了一个
