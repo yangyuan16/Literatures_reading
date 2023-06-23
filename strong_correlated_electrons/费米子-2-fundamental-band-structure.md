@@ -397,3 +397,6 @@ neighboring atoms and so on.
 So in real system you do have many electrons per unit cell and you do there for have many bands. The relation between 
 the energy of each band and momentum is exactly the information contained in the band structure 
 (所以在真实的系统中，每个晶胞中确实有很多电子，而且有很多能带。每个能带的能量和动量之间的关系正是包含在能带结构中的信息)
+
+To understand the band structure of our solid material from the fundamental model we need to do one final step 
+we need to another canonical transformation of our C operators this 
