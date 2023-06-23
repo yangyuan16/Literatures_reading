@@ -31,7 +31,7 @@ $$ H = \sum_{i,j}t_{ij}c_i^{\dagger}c_j$$
 
 **Alternating tunnelling elements so t1 t2 t1 t2 on the chain(这样的系统中，一个元胞就会包含两个orbitals)**
 **所以这就是一个two band system 两能带系统**
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_2.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_3.png)
 
 对于SSH model, 这里 i label the unit cell, and a, b label the sites in unit cell. 
 
