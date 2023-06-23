@@ -282,7 +282,7 @@ $a_{cc}$ is the constant distance, which is the nearest neighbor between the car
 and the vector itself is 
 
 $$
-\uparrow{a_1} = \sqrt{3}a_{cc} 
+\vec{a_1} = \sqrt{3}a_{cc} 
 \left [
 \begin{array}{c}
 \sqrt{3}/2 \\
@@ -293,7 +293,7 @@ $$
 $$
 
 $$
-\uparrow{a_2} = \sqrt{3}a_{cc} 
+\vec{a_2} = \sqrt{3}a_{cc} 
 \left [
 \begin{array}{c}
 \sqrt{3}/2 \\
@@ -302,3 +302,63 @@ $$
 \end{array}
 \right]
 $$
+
+**2d super unit cell (超胞)**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_30.png)
+
+The question is what is the Hamiltonian for such system? (这样的系统的哈密顿量该如何写呢?)
+
+For a unit cell located at position $\vec{r} = (x,y)$, 
+
+$$H_{x,y} = \vec{C}_{xy}^{+} M \vec{C}_{xy}$$
+
+There will be some matrix M which tell us about what's going on inside the unit cell
+so we have L. if we have L degree of freedom, this will be a L by L matrix. Notice that this 
+matrix M does not have X&Y labels, why is that? That is beacuse the unit cell is a repeating unit and it's 
+the same Hamiltonian describing this unit as any other unit cell on the lattice. It's always the same because that's 
+the whole point we copy the unit cell and shifted. So it doesn't have any XY dependence itself. So let's just write 
+down what these various things in the Hamiltonian.(会有一些矩阵M告诉我们晶胞内部发生了什么，所以我们有L。
+如果我们有L的自由度，这将是一个L乘L的矩阵。请注意，这个矩阵M没有X和Y标签，为什么是这样？
+这是因为晶胞是一个重复单元，它与晶格上的任何其他晶胞都是相同的哈密顿量。它总是一样的，
+因为这就是我们复制单元并移动的全部点。所以它本身没有任何XY依赖性。所以我们就写吧把哈密顿量中的各种各样的东西都记下来。) 
+
+**先构建超包内的哈密顿量**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_31.png)
+
+Let's see that, 我们可以构建 C 算符的矢量，that is 
+
+$$
+\vec{C}_{xy} =  
+\left [
+\begin{array}{c}
+\vec{C}_{xy, 1} \\
+\vec{C}_{xy, 2}\\
+\vec{C}_{xy, 3}\\
+\vdots\\
+\end{array}
+\right]
+$$
+
+**再构建整个系统的哈密顿量**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_32.png)
+
+
+**采用傅里叶变换来求解这样的具有超包的 2d lattice model**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_33.png)
+
+带有M矩阵的第一项描述在超包内的interations, 带有 P 矩阵的第二项和第三项描述在X轴方向的胞间tunneling,
+带有 Q 矩阵的第四第五项描述 Y 轴方向的胞间 tunneling.
+注意上面在做傅里叶变换的时候，先在X轴的方向做了傅里叶变换。Y 轴上没有做傅里叶变换，因此是一个混合基底。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_34.png)
+
+**值得注意的是，我们可以看到，当通过变换到K空间的时候:**
+
+$$C_{x,y}^{\dagge}C_{x+1,y} \rightarrow C_{k_{x},y}^{\dagger}C_{k_{x},y}e^{-ik_{x}}$$
+
+原本在晶格空间中的**非对角项 变换到了k空间的对角项**, **同时多出了一个相位** $e^{-ik_{x}}$. 
+
