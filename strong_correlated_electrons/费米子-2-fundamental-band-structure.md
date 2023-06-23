@@ -35,3 +35,5 @@ $$ H = \sum_{i,j}t_{ij}c_i^{\dagger}c_j$$
 
 对于SSH model, 这里 i label the unit cell, and a, b label the sites in unit cell. 
 
+注意在 SSH model 中，tunneling term 中包括元胞与元胞之间的 tunneling. 
+
