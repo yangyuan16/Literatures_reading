@@ -269,3 +269,36 @@ delocalized and equivalent and this is basically related to Bloch's theorem.
 
 ## 傅里叶变换求解元胞中包含多个轨道的系统
 
+**1d 的情况**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_28.png)
+
+**2d 的情况**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_29.png)
+
+
+$a_{cc}$ is the constant distance, which is the nearest neighbor between the carbon atoms of this graphene lattice 
+and the vector itself is 
+
+$$
+\uparrow{a_1} = \sqrt{3}a_{cc} 
+\left [
+\begin{array}{c}
+\sqrt{3}/2 \\
+1/2\\
+0\\
+\end{array}
+\right]
+$$
+
+$$
+\uparrow{a_2} = \sqrt{3}a_{cc} 
+\left [
+\begin{array}{c}
+\sqrt{3}/2 \\
+-1/2\\
+0\\
+\end{array}
+\right]
+$$
