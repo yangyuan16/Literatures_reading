@@ -358,7 +358,42 @@ $$
 
 **值得注意的是，我们可以看到，当通过变换到K空间的时候:**
 
-$$C_{x,y}^{\dagge}C_{x+1,y} \rightarrow C_{k_{x},y}^{\dagger}C_{k_{x},y}e^{-ik_{x}}$$
+$$C_{x,y}^{\dagger}C_{x+1,y} \rightarrow C_{k_{x},y}^{\dagger}C_{k_{x},y}e^{-ik_{x}}$$
 
 原本在晶格空间中的**非对角项 变换到了k空间的对角项**, **同时多出了一个相位** $e^{-ik_{x}}$. 
 
+合并对角项，注意此时，哈密顿中带有Q矩阵的项仍然存在非对角项目：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_35.png)
+
+在 Y 轴方向上进行傅里叶变换，采用 delta 函数的性质 得到整个系统的对角形式：
+
+到目前为止我们还没有真正的得到Hamitonian矩阵，因为E矩阵不是对角的。我们需要对E矩阵进行对角化处理。
+E 矩阵的大小为 L by L, L 是超包内的轨道自由度，也就是超胞内的不同轨道的数目，超包内格点的数目。
+
+对 E 矩阵分别进行对角化处理，when I do that, it will tell me about all the different energy bands in the 
+system and I'll L different energy bands for L different eigen values, and those bands will depends on 
+Kx and Ky, so when I diagnolize E I will L different eigen values, which depends on Kx and Ky, and they are the 
+bands of our system and each of then has their own dispersion relation, each band will have a different 
+dispersion relation, which tells me how the energy of that bands corresponds to the momentum of Kx and Ky, 
+and for different bands that relation will be different. (当我这样做的时候，它会告诉我系统中所有不同的能带，
+**对于L个不同的本征值，我会得到L个不同能带，这些能带取决于Kx和Ky**，
+**所以当我诊断E时，我会得出L个不同本征值。这取决于Kx和Ky**。
+**它们是我们系统的能带。每个能带都有自己的色散关系**，
+**每个带都有不同的色散关系**，
+**这告诉了我这些带的能量是如何对应于Kx和Ky的动量的，对于不同的带，这种关系是不同的**。)
+
+### 如何对角化 E 呢？
+
+diagonalize E really depends on what these matrix M, P, and Q. that in the end is telling us about the geometry of 
+our actual underlying quantum system. I can image even a simple square lattice of individual atoms but each atom in reality
+has more than one electrom we're not talking about a lattice of hydrogen atoms so in a real system even a square lattice 
+would involve many atomic orbitals on each atom and each of those atomic orbitals has some energy in some its coupling
+neighboring atoms and so on. 
+(对角化E实际上取决于这些矩阵M、P和Q，它们最终告诉我们实际底层量子系统的几何结构。我甚至可以想象一个简单的单个原子的正方形晶格，
+但实际上每个原子都有不止一个电子，我们不是在谈论氢原子的晶格，所以在真实的系统中，
+即使是正方形晶格也会涉及每个原子上的许多原子轨道，这些原子轨道中的每一个在其耦合的相邻原子中都有一些能量，等等。)
+
+So in real system you do have many electrons per unit cell and you do there for have many bands. The relation between 
+the energy of each band and momentum is exactly the information contained in the band structure 
+(所以在真实的系统中，每个晶胞中确实有很多电子，而且有很多能带。每个能带的能量和动量之间的关系正是包含在能带结构中的信息)
