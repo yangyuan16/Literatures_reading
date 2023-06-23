@@ -119,3 +119,8 @@ the right hand side, you see that there a big gap where there's basically no den
 (因为我从t_2键开始，t_2=0，我有一个孤立的轨道，它没有耦合到链末端的任何东西，**因此它的能量为零，因为**$\epsilon=0$，
 我有24对二聚体，链的末端各有一个位点，剩下两个位点，所以你可以看到，**在能谱的中间，这两个位点正好处于零能量**，
 它们位于本征能隙中，你可以看到有一个很大的能隙，在-1和+1之间，基本上没有任何态的密度。)
+
+**将 t_2 从零调整到非零**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_14.png)
+
