@@ -191,7 +191,7 @@ energy and they are exponentially well localized
 
 > 推论: 如果能谱上有零能，对应的基态波函数会出现局域。
 
-## Diagonalize the periodic systems by a Fourier transform 
+## Diagonalize the periodic systems by a Fourier transform  傅里叶变换求解系统
 
 it is important for these systems have a translational symmetry of periodicity to the lattice. 
 
@@ -216,4 +216,56 @@ N is the number of the unit cells, k is the momentum , $a_0$ is the lattice cons
 canonical transformation means that the 费米子的反对易关系不会发生变化
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_24.png)
+
+**将上面的Fourier 变换带入到hamitonian 中**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_25.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_26.png)
+
+可以推出来 哈密顿为： 
+
+$$H = \sum_{k} \epsilon_{k} c_k^{\dagger} c_k$$
+
+$$\epsilon_k = t (e^{ika_0} + e^{-ika_0}) = 2tcos(ka_0)$$ 
+
+称为 “色散关系” diperision relation. 
+
+如果哈密顿是平移对称不变的，那么动量 K 就是一个守恒量 （**从哈密顿最终可以写成动量的对角形式就可以看出来**）
+
+### 考虑单粒子态
+
+在实空间的单粒子态并不是哈密顿的本征态，
+
+**对比单粒子态和单粒子本征态**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_27.png)
+
+you see that therefore there are these sort of oscillating patterns of these
+real space basis orbitals X and if I want to know the probability to find an 
+electron with immense K at a given real space position X then I just have to 
+take the square of this coefficient. 你会发现所有的概率都是 $\frac{1}{N}$, 也就是
+there are equal probability of finding the electron at any given sites in their 
+system, the electron are totally delocalized over the whold system.
+So, the electrons are really spread out over the whole system in the eigenstates. 
+and therefor this is certainly a metal, because the electron are totally delocalized.
+Also noted that all different momenta are basically equivalent in terms of where you can 
+find the electrons what the probability density is and if we look at the structure of these states,
+there is a phase information. It is really this phase information is a complex number, so, there 
+are some phase information that depends on both the position and the momentum is basically capturing 
+all of the quantum mechanical information. This would give rise to possibilities for example quantum 
+interference and all the other good stuff. But in terms of probability density, the electrons are totally 
+delocalized and equivalent and this is basically related to Bloch's theorem. 
+(你看，这些实空间基轨道X有这些振荡模式，如果我想知道在给定的实空间位置X上有巨大K的电子，
+那么我只需要取这个系数的平方。你会发现所有的概率都是 $\frac{1}{N}$，也就是 
+在**它们的系统中的任何给定位置找到电子的概率都是相等的，电子在整个系统中都是完全离域的**。
+**所以，电子在本征态中真的分布在整个系统上。因此，这肯定是一种金属，因为电子是完全非局域的**。
+还注意到，所有不同的动量基本上是相等的，在哪里可以找到电子，概率密度是多少，如果我们看看这些态的结构，
+存在相位信息。实际上，这个相位信息是一个复数，
+所以，有一些相位信息取决于位置和动量，基本上捕获了所有的量子力学信息。
+这将产生各种可能性，例如量子干涉和所有其他好东西。
+但就概率密度而言，电子是完全离域和等价的，这基本上与布洛赫定理有关。)
+
+
+## 傅里叶变换求解元胞中包含多个轨道的系统
 
