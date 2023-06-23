@@ -31,9 +31,27 @@ $$ H = \sum_{i,j}t_{ij}c_i^{\dagger}c_j$$
 
 **Alternating tunnelling elements so t1 t2 t1 t2 on the chain(这样的系统中，一个元胞就会包含两个orbitals)**
 **所以这就是一个two band system 两能带系统**
+
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_3.png)
 
 对于SSH model, 这里 i label the unit cell, and a, b label the sites in unit cell. 
-
 注意在 SSH model 中，tunneling term 中包括元胞与元胞之间的 tunneling. 
 
+## 这两个模型的数值严格解：
+
+**需要写出以费米子产生湮灭算符为基矢量的 T 矩阵。**
+通过分析能带结构会发现，模型1显然是一个金属，模型二是一个 band insulator. 
+
+**模型-1的矩阵形式**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_4.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_5.png)
+
+**模型-1的本征能量**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_6.png)
+
+**模型-1的本征态**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_7.png)
