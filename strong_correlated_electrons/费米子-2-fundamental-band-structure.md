@@ -189,4 +189,18 @@ energy and they are exponentially well localized
 问题是这里，即使t2是有限的，并且这些状态耦合到系统的其余部分，
 它们的能量也是指数低的，并且它们是指数良好的局部化)
 
-## 
+> 推论: 如果能谱上有零能，对应的基态波函数会出现局域。
+
+## Diagonalize the periodic systems by a Fourier transform 
+
+it is important for these systems have a translational symmetry of periodicity to the lattice. 
+
+**考虑最简单的情况，1d wire again**
+
+$$H = \sum_{x=-\inf}^{\inf} t(c_x^{+}c_{x+1} + c_{x+1}^{+}c_{k})$$
+
+**对算符进行Fourier transformation**
+
+$$c_x = \frac{1}{\sqrt{N}} \sum_{k} e^{i k a_0} c_k$$
+
+N is the number of the unit cells, k is the momentum , $a_0$ is the lattice constant,
