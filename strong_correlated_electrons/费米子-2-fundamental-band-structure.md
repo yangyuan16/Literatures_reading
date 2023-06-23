@@ -201,6 +201,8 @@ $$H = \sum_{x=-\inf}^{\inf} t(c_x^{+}c_{x+1} + c_{x+1}^{+}c_{k})$$
 
 **对算符进行Fourier transformation**
 
-$$c_x = \frac{1}{\sqrt{N}} \sum_{k} e^{i k a_0} c_k$$
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_22.png)
 
-N is the number of the unit cells, k is the momentum , $a_0$ is the lattice constant,
+$$c_x = \frac{1}{\sqrt{N}} \sum_{k} e^{i k a_{0}} c_k$$
+
+N is the number of the unit cells, k is the momentum , $a_0$ is the lattice constant. 
