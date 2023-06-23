@@ -206,3 +206,14 @@ $$H = \sum_{x=-\inf}^{\inf} t(c_x^{+}c_{x+1} + c_{x+1}^{+}c_{k})$$
 $$c_x = \frac{1}{\sqrt{N}} \sum_{k} e^{i k a_{0}} c_k$$
 
 N is the number of the unit cells, k is the momentum , $a_0$ is the lattice constant. 
+
+**同样也可以做 inverse Fourier transformation**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_23.png)
+
+**验证 Fourier transformation is canonical transformation**
+
+canonical transformation means that the 费米子的反对易关系不会发生变化
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_24.png)
+
