@@ -96,3 +96,26 @@ delocalied over the whole system subject to these boundary conditions of the van
 ## SSH 模型的数值严格解
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_12.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_13.png)
+
+这里画出来的是 two different scenarios we imageine a chain that stats with $t_1$ on the left hand side and stats 
+with $t_2$ on the right hand side. So we image a chain a 1d chain that goes "t_1, t_2, t_1, t_2 ..." and so on. 
+(左边这幅图的结果是t相互作用排序为"t_1, t_2, t_1, t_2 ...", 也就是从 t_1 开始)， 右边这幅图的刚好相反，t 相互作用的排序是
+“t_2, t_1, t_2, t_1,...”, 也就是从 t_2 开始。**t_1 是元胞内的tunneling项, t_2是元胞之间的 tunneling项**
+
+**这两个子图都是考虑 t_2 等于 0 的情况**，
+t_2 = 0, it dimerize the whole system. (t_2 = 0 的时候，整个系统 dimerized). 考虑100个格点，分成50个元胞,
+由于 t_2 等于 0， I just have 25 sort of dimerized paries which decoupled from each other and each dimer has an 
+energy one of the site, one of the eigenstates as energy of -1, the other one has an eigen state energy of +1.
+So I just have 25 values -1 and 25 values of +1. 
+
+对于右边子图的情况，几乎和左边子图的情况是一致的，except for the situation at the end of chain. At the end of the chain, 
+because I start with a t_2 bond and t_2 = 0, that I just have an isolated orbitals that not coupled to anything at 
+the end of the chain and therefor that just has zero energy because the $\epsilon = 0$, so I have 24 pairs of dimers with 
+two sites left over one each at end of the chain and therefor you see that in the middle of the spectrum here I have
+just these two sites sitting exactly a zero energy and they site in an eigen energy gap, on the left hand side and on 
+the right hand side, you see that there a big gap where there's basically no density of any states between -1 and +1.
+(因为我从t_2键开始，t_2=0，我有一个孤立的轨道，它没有耦合到链末端的任何东西，**因此它的能量为零，因为**$\epsilon=0$，
+我有24对二聚体，链的末端各有一个位点，剩下两个位点，所以你可以看到，**在能谱的中间，这两个位点正好处于零能量**，
+它们位于本征能隙中，你可以看到有一个很大的能隙，在-1和+1之间，基本上没有任何态的密度。)
