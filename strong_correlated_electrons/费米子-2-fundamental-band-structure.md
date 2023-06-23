@@ -124,3 +124,69 @@ the right hand side, you see that there a big gap where there's basically no den
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_14.png)
 
+**观察能隙：随着 t_2 的增加，能隙在减小**, in both the system here the gap has now been reduced to -0.5 to 0.5, 
+but one of the interesting things is that's the on the right hand side, I still see two states sitting exactly to 
+zero energy and this is rather interesting because they're actually now coupled into rest of the system with a finite
+t_2, but yet still they appear to have zero energy. On the left-hand side even though all the sites coupled in together
+to each other we see there are no such states sitting at zero energy and there's still a pristine gap in the spectrum. 
+(在这两个系统中，间隙现在都减少到了-0.5-0.5，但有趣的是，在右边，**我仍然看到两个状态正好处于零能量**，
+**这很有趣，因为它们实际上以有限的 t2 耦合到系统的其他部分，但它们看起来仍然是零能量**。
+在左手边，尽管所有的位置都耦合在一起，但我们看到没有这样的状态处于零能量，光谱中仍然存在原始的差距。)
+
+**不断的增加t_2来关闭能隙**，
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_15.png)
+
+As I increase the T to further, I can close the gap, now I have a homogeneous system when t_1 is equal to t_2,
+this is the metallic system we looked at before. We don't have a unit cell of two sites now, everything just looks exactly
+the same as I go down the chain and I have a cosine type of behavior of the eigen energies. 
+
+**继续增大 t_2, 能隙又会打开**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_16.png)
+
+**观察最低能量对应的本征态**
+
+**\Dealt t >0 的情况**
+
+$\Delta t = t_1 - t_2$, 当 $\Delta t > 0$ 时, 
+lowest energy states and surely the ones around the Fermi energy expanded in the basis of physical real space sites on the chain.
+(最低能态就是费米能级附近的态。)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_17.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_18.png)
+
+这里画的是最低能量的两个态，我们可以看到在有能隙的相中，这里有两个不同的非局域的波函数， the electrons are 
+propagating on the chain, they are delocalized and they look like regular kind of particle in a box type states
+(电子在链上传播，它们是非局域的，看起来像盒子状态下的规则粒子). These are the lowest energy states living sort of at the
+gap edge. 
+
+**\Dealt t < 0 的情况**
+
+$\Delta t = t_1 - t_2$, 当 $\Delta t < 0$ 时,
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_19.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_20.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_21.png)
+
+However if I make the $\Delta t$ negative, as I make the $\Delta t$ smaller and smaller and smaller, these 
+states become exponetially localized at the edge of the system. So these zero energy states in one of the phases 
+are not delocalized throughout the system, these ones sitting right in the middle of the spectrum there. They are
+actually exponetially well localized at the edge of the system and of course in the dimerize limit when $t_2$ is equal to 
+zero (t_2 = 0), we expect indeed that there are these pristine zero energy states perfectly localized. The energy thing is 
+here even when t_2 is finite and those states are coupled into the rest of the system, they are exponentially low in the 
+energy and they are exponentially well localized
+
+(然而，如果我使$\Delta t$为负，就像我使$\Delta t$越小越小一样，
+**这些状态会在系统的边缘明显地局部化**。
+因此，其中一个相中的这些零能态在整个系统中都都是局域的，零能态位于能谱中间，
+它们实际上在系统的边缘被很好地局部化。
+当然在二聚极限中，当$t_2$等于零（t_2=0）时，
+我们确实期望存在这些完全局部化的原始零能态。
+问题是这里，即使t2是有限的，并且这些状态耦合到系统的其余部分，
+它们的能量也是指数低的，并且它们是指数良好的局部化)
+
+## 
