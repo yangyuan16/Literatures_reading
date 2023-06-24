@@ -114,9 +114,5 @@
  
  ## 考虑电子相互作用的模型
 
-
-
-
-$$\hat{H}_{int} = \sum{i,j,k,l} \sum{\sigma_1,\sigma_2, \sigma_3, \sigma_4} U_{i,j,k,l}^{\sigma_1\sigma_2\sigma_3\sigma_4}
-\hat{C}_{i\sigma_1}^{+}\hat{C}_{j\sigma_2}\hat{C}_{k\sigma_3}^{+}\hat{C}_{l\sigma_4}$$
+$$\hat{H}_{int} = \sum{i,j,k,l} \sum{\sigma_1,\sigma_2, \sigma_3, \sigma_4} U_{i,j,k,l}^{\sigma_1\sigma_2\sigma_3\sigma_4}\hat{C}_{i\sigma_1}^{+}\hat{C}_{j\sigma_2}\hat{C}_{k\sigma_3}^{+}\hat{C}_{l\sigma_4}$$
 
