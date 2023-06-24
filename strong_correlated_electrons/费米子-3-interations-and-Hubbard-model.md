@@ -84,7 +84,9 @@
  
  ## Tight-binding-model with spin 
  
- ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig2.png)
+ ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig3.png)
+ 
+ ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig4.png)
  
  We could imagine for example adding here a sigma dependence to these parameters $t_{ij}$ in which case we 
  could image a tunneling of electrons from site i to site j, but depends on the spin. If we look at the diagonal
