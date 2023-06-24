@@ -69,13 +69,15 @@
  In factor, we can regard the spin as a quantum number of label our states. we can use the label Sigma to describe either 
  up or down electron spin states. 
  
- Fermionic operator with spin:
+ Fermionic operator with spin,  these operator act on the local Hilbert space. 
  
- $$\hat{c}_{i\sigma}^{+}$$  $$\hat{c}_{i\sigma}$$
+ $$\hat{c}_{i\sigma}^{+}$$ 
  
- these operator act on the local Hilbert space. 
+ $$\hat{c}_{i\sigma}$$
  
- $$|0>_{i\sigma}$$, $$|1>_{i\sigma}$$
+ $$|0>_{i\sigma}$$,
+ 
+ $$|1>_{i\sigma}$$
  
  $$\hat{c}_{i\sigma}^{+}|0>_{i\sigma} = |1>_{i\sigma}$$
  
