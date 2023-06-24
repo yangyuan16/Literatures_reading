@@ -385,6 +385,10 @@ and for different bands that relation will be different. (当我这样做的时�
 
 ### 如何对角化 E 呢？
 
+$$H = \sum_{k_x, k_y} C_{k_x,k_y}^{+} E C_{k_x, k_y}$$
+
+$$ E = M + P e^{-ik_x} + P^{+} e^{ik_x} + Q e^{-ik_y} + Q^{+}e^{ik_y} $$
+
 diagonalize E really depends on what these matrix M, P, and Q. that in the end is telling us about the geometry of 
 our actual underlying quantum system. I can image even a simple square lattice of individual atoms but each atom in reality
 has more than one electrom we're not talking about a lattice of hydrogen atoms so in a real system even a square lattice 
