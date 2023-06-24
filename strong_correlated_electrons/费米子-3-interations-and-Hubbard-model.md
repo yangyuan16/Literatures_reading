@@ -71,16 +71,12 @@
  
  Fermionic operator with spin,  these operator act on the local Hilbert space. 
  
- $$\hat{c}_{i\sigma}^{+}$$ 
+ $$\hat{c}_{i\sigma}^{+}, ~~~ \hat{c}_{i\sigma}$$ 
  
- $$\hat{c}_{i\sigma}$$
+ $$|0>_{i\sigma}, ~~~ |1>_{i\sigma}$$,
  
- $$|0>_{i\sigma}$$,
+ $$\hat{c}_{i\sigma}^{+}|0>_{i\sigma}=|1>_{i\sigma}$$
  
- $$|1>_{i\sigma}$$
- 
- $$\hat{c}_{i\sigma}^{+}|0>_{i\sigma} = |1>_{i\sigma}$$
- 
- $$\hat{c}_{i\sigma}|1>_{i\sigma} = |0>_{i\sigma}$$
+ $$\hat{c}_{i\sigma}|1>_{i\sigma}=|0>_{i\sigma}$$
  
  $$\{c_{i\sigma}, c_{j\sigma^\prime}^{+}\} = \delta_{ij}\delta{\sigma\sigma^\prime}$$
