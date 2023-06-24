@@ -137,3 +137,6 @@ number of electrons in a particular orbital and the number of electrons in diffe
 
 **Hubbard interaction only non-zero if a site is a doubly occupied**
 **(只有当一个轨道上存在两个自旋相反的电子的时候,Hubbard相互作用是非零的)**
+
+## Hubbard model 哈伯德模型
+
