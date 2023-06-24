@@ -69,7 +69,7 @@
  In factor, we can regard the spin as a quantum number of label our states. we can use the label Sigma to describe either 
  up or down electron spin states. 
  
- 加入自旋后的费米子算符
+ Fermionic operator with spin:
  
  $$\hat{c}_{i\sigma}^{+}$$  $$\hat{c}_{i\sigma}$$
  
