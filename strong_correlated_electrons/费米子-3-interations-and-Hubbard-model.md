@@ -112,4 +112,11 @@
  **具有SOC项的哈密顿的结构中，整体的spin 并不是一个守恒量了，守恒量是轨道角动量加自旋**，因此，做对角化处理的时候，不能写成
  求和 $\sum_{\sigma,}$ 的形式，因此这里用一个指标 $l$ 来标记。所有的轨道和自旋混合起来形成了混合的指标 $l$
  
- 
+ ## 考虑电子相互作用的模型
+
+
+
+
+$$\hat{H}_{int} = \sum{i,j,k,l} \sum{\sigma_1,\sigma_2, \sigma_3, \sigma_4} U_{i,j,k,l}^{\sigma_1\sigma_2\sigma_3\sigma_4}
+\hat{C}_{i\sigma_1}^{+}\hat{C}_{j\sigma_2}\hat{C}_{k\sigma_3}^{+}\hat{C}_{l\sigma_4}$$
+
