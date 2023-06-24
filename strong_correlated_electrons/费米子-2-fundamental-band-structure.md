@@ -387,7 +387,7 @@ and for different bands that relation will be different. (当我这样做的时�
 
 $$H = \sum_{k_x, k_y} C_{k_x,k_y}^{+} E C_{k_x, k_y}$$
 
-$$ E = M + P e^{-ik_x} + P^{+} e^{ik_x} + Q e^{-ik_y} + Q^{+}e^{ik_y} $$
+$$ E(k_x,k_y) = M + P e^{-ik_x} + P^{+} e^{ik_x} + Q e^{-ik_y} + Q^{+}e^{ik_y} $$
 
 diagonalize E really depends on what these matrix M, P, and Q. that in the end is telling us about the geometry of 
 our actual underlying quantum system. I can image even a simple square lattice of individual atoms but each atom in reality
@@ -403,4 +403,42 @@ the energy of each band and momentum is exactly the information contained in the
 (所以在真实的系统中，每个晶胞中确实有很多电子，而且有很多能带。每个能带的能量和动量之间的关系正是包含在能带结构中的信息)
 
 To understand the band structure of our solid material from the fundamental model we need to do one final step 
-we need to another canonical transformation of our C operators this 
+we need to another canonical transformation of our C operators:
+
+$$ \vec{C}_{k_x, k_y} = U(k_x,k_y)\vec{F}_{k_x,k_y}$$
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_36.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_37.png)
+
+What is the energy bands means? it is the eigenstates of the system as a function of momentum. There is the 
+L bands in total. L is the number of degrees of freedom in the unit cell, so there are the same number of bands
+in the solid as there are degrees of freedom in the repeating unit cell of the lattice.
+$\epsilon_p{k_x,k_y}$ here is the dispersion of each band. So, for each P labeling the band, I can now work out or 
+I now know what the energy momentum relation is.
+ 
+ 
+## 用每个超包中有5个轨道来举例说明
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_38.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_39.png)
+
+This is basically a metallic system because if I look at any particular energy, for example, set the Fermi level here
+then as I go across in momentum space, I see that several bands across this Fermi energy maybe even the same 
+band several times and this gives me an overall density of states at the fermi energy and that means the system is a metal. 
+(这基本上是一个金属系统，因为如果我观察任何特定的能量，例如，在这里设置费米能级，当我在动量空间中穿过时，
+我看到穿过这个费米能量的几个能带，
+甚至可能是同一个能带好几次，这给了我在费米能量下的整体态密度，这意味着这个系统是一种金属。)
+
+**再画一个绝缘体**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_40.png)
+
+I could image a certain band structure that has a gap in the bands. There are no
+bands cross the Fermi energy at any momentum and therefor when I sum over all the momentum there 
+are no density of states at Fermi energy and therefor this system would be an insulator.
+I would cost a finite amount of energy to promote an electron across the gap and indeed we can identify 
+what the minimum gap is. we can see this particular momentum there is a particular energy gap $\Delta E$
+over here. 
+
