@@ -27,6 +27,7 @@
  
  ## 考虑电子自旋
  
+ ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig1.png)
  
  There are may areas of physics where we do need to include electron spin. For example, if we want to describe magnetism,
  obviously we need to include electron spin, if we have ferromagnetic ordering or antiferromagnetic ordering, this some 
@@ -80,3 +81,35 @@
  $$\hat{c}_{i\sigma}|1>_{i\sigma}=|0>_{i\sigma}$$
  
  $$\{c_{i\sigma}, c_{j\sigma^\prime}^{+}\} = \delta_{ij}\delta{\sigma\sigma^\prime}$$
+ 
+ ## Tight-binding-model with spin 
+ 
+ ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig2.png)
+ 
+ We could imagine for example adding here a sigma dependence to these parameters $t_{ij}$ in which case we 
+ could image a tunneling of electrons from site i to site j, but depends on the spin. If we look at the diagonal
+ elements $t_{ii,\sigma}$, They are correspond to the single particle energies if they are different for up and 
+ down spin. that is equivalent to a magnetic field on acting on that site, which lifts the degenercy between 
+ up and down spin. (例如，我们可以想象在这里添加对这些参数$t_{ij}$的西格玛依赖性，
+ 在这种情况下，我们可以成像电子从位置i到位置j的隧穿，但取决于自旋。
+ 如果我们看对角线元素$t_{ii,\sigma}$，它们对应于单粒子能量，如果单粒子能量对于上下自旋不同。
+ 这相当于作用在该位置上的磁场，它打开了上下自旋之间的简并性。)
+ 
+ > 再同一个轨道上，也就是对角项上，自旋上和自旋下对应的能量可以是不一样的。
+ 
+ This is totally generic kind of quadratic type. 
+ 
+ **加入自旋后会出现两条能带，一条是自旋向上的能带，一条是自旋向下的能带**。
+ 
+ 我们也可以考虑比较奇怪的一部分，那就是 spin orbit coupling (自旋-轨道耦合)
+ 自旋 $\sigma$在轨道 i 上面，自旋 $\sigma^{\prime}$ 在轨道 j 上面：
+ 
+ $$H_{soc} = \sum_{i,j}\sum{\sigma,\sigma^{\prime}}\epsilon_{ij\sigma\sigma^{\prime}}C_{i\sigma}^{+}C_{j\sigma^{\prime}}$$
+ 
+ if I have orbitals with orbital angular momentum L and spin $\sigma$ and the thing is conserved is the overall 
+ angular momentum, which is the orbital angular momentum plus the spin electrons. 
+ 
+ **具有SOC项的哈密顿的结构中，整体的spin 并不是一个守恒量了，守恒量是轨道角动量加自旋**，因此，做对角化处理的时候，不能写成
+ 求和 $\sum_{\sigma,}$ 的形式，因此这里用一个指标 $l$ 来标记。所有的轨道和自旋混合起来形成了混合的指标 $l$
+ 
+ 
