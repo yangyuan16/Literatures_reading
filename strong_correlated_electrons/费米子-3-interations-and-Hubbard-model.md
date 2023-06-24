@@ -114,5 +114,9 @@
  
  ## 考虑电子相互作用的模型
 
-$$\hat{H}_{int} = \sum{i,j,k,l} \sum{\sigma_1,\sigma_2, \sigma_3, \sigma_4} U_{i,j,k,l}^{\sigma_1\sigma_2\sigma_3\sigma_4}\hat{C}_{i\sigma_1}^{+}\hat{C}_{j\sigma_2}\hat{C}_{k\sigma_3}^{+}\hat{C}_{l\sigma_4}$$
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig2.png)
 
+$$\hat{H}_{int}=\sum{i,j,k,l} \sum{\sigma_1,\sigma_2, \sigma_3, \sigma_4} U_{i,j,k,l}^{\sigma_1\sigma_2\sigma_3\sigma_4}\hat{C}_{i\sigma_1}^{+}\hat{C}_{j\sigma_2}\hat{C}_{k\sigma_3}^{+}\hat{C}_{l\sigma_4}$$
+
+> 在 tight-binding 项中，自旋量子数守恒要求 $\sigma_1 = \sigma_2$
+> 在相互作用项中，自旋量子数守恒要求 $\sigma_1 + \sigma_3 = \sigma_2 + \sigma_4$
