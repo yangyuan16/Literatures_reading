@@ -431,6 +431,8 @@ band several times and this gives me an overall density of states at the fermi e
 我看到穿过这个费米能量的几个能带，
 甚至可能是同一个能带好几次，这给了我在费米能量下的整体态密度，这意味着这个系统是一种金属。)
 
+> 值得注意的是 5个轨道，说明 L=5, 也就是 E 矩阵是一个 5* 5的矩阵。
+
 **再画一个绝缘体**
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_40.png)
@@ -442,3 +444,52 @@ I would cost a finite amount of energy to promote an electron across the gap and
 what the minimum gap is. we can see this particular momentum there is a particular energy gap $\Delta E$
 over here. 
 
+### 举例 2d square lattice with a single band
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_41.png)
+
+Go back to the 2d square lattice with a single orbital, so this is where we have one degree of freedom in each 
+unit cell, we can therefore write the matrix that describes the coupling within the unit cell. Of course just a 
+one by one matrix or a scalar we can write as for example the energy of that size. 
+Let's write it as the chemical potential $\mu$. We can write the hopping matrix elements,
+the tunneling matrix element along the X direction, which is described by the P matrix, again, it is one by one. 
+Let's say the tuneling amplitude along the Y direction, Let's given that a different value that called t'. 
+(回到具有单个轨道的二维正方形晶格，这就是我们在每个晶胞中有一个自由度的地方，因此我们可以写出描述晶胞内耦合的矩阵。
+当然只是1*1的矩阵或标量，我们可以写为这个大小的能量。
+让我们把它写成化学势$\mu$。我们可以写出跳跃矩阵元素，沿着X方向的tunneling矩阵元素，用P矩阵来描述，再一次，它是1*1的。
+假设沿着Y方向的调谐幅度，我们给它一个不同的值，叫做t'。)
+
+This is a metal, because everywhere inside the Bands we have a finite density of states. So if $\mu$ is the 
+Fermi energy in particular than we see that the Fermi energy there are bands that across the Fermi energy 
+at this points here. Therefor we have finite density of states at the Fermi energy and this a metal. 
+(这是一种金属，因为在带内的任何地方，我们都有有限的态密度。因此，如果$\mu$是费米能量，
+那么我们看到费米能量中有穿过费米能量的带
+在这一点上。因此，我们在费米能量下有有限的态密度，而这是一种金属。)
+
+## 考虑1d system, two sites in a cell. （每个超包中有两个不同原子的一维链）
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_42.png)
+
+we will have two bands in this system beacuse we have two different orbitals in the unit cell. 
+This is the SSH model, so we will have two bands and we will see actually this is a band insulator. 
+
+
+> 注意，只有用傅里叶变换到K空间，对应出来的的E矩阵 L * L， L 就等于元胞中轨道的数目(这一点很重要)
+> 然后对角化之后就会有 L 条能带出来。
+> 如果是用数值严格对角化处理，采用的 U变换，U 不是L*L的，比如上面的数值严格对角化处理 1d
+> 2 site cell 的时候，是限定到一个 10个原子链长来处理，得到的是一个10 * 10 的矩阵，
+> 这时候显然 U 矩阵的维数和 能带的数量并不是一 一对应的，尽管我们知道这样的系统是有两条能带。
+
+**画出傅里叶变换下的SSH模型的色散关系，the bulk of SSH model, 体态**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_43.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_44.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_45.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_46.png)
+
+当 $t_2 = t_1$ 的时候，能带交叉，体系变成了一个金属，当$t_2 > t_1$ 的时候，能隙打开，体系又重新变成绝缘体。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/band-structure/hamitonian_47.png)
