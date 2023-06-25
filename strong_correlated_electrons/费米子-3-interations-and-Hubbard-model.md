@@ -175,6 +175,7 @@ For example, metallic behavior, insulating behavior, magnetism, super conductivi
 different lattices. 
 
 ## Half-field lattice Hubbard model 
+## 在金属相中
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig9.png)
 
@@ -184,7 +185,24 @@ different lattices.
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig11.png)
 
-
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig12.png)
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig13.png)
+
+**可以看出，电子在tunneling 的过程中，就会形成铁磁或者反铁磁的涨落**
+
+**考虑更多的tunneling effects**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig14.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig15.png)
+
+## 在绝缘体相中
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig16.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig17.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig18.png)
+
+**由于很强的库伦排斥作用，电子会隧穿回原来的位置，这个时候隧穿回来的时候自旋可能会发生反转**
