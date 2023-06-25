@@ -244,3 +244,101 @@ because I hopped the one electron over from one sites.
 **这些反铁磁spin之间并不是静态的，而是会相邻格点之间互相tunnelg, 只不过形成 onsite 的2个电子的生命时间非常短，很快又会隧穿**
 **回原来的位置上，这样的激发过程也可以看作是一种虚拟激发，这也是符合量子力学图景的**
 
+## Hubbadrd 模型中的态密度和激发普
+
+### 第一种情况，库伦相互作用趋于零
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig27.png)
+
+
+ This a non-interacting binding model with electons. For example, hopping around on 
+ a 2d square lattice. Because we just have a single orbital in the unit cell, we know 
+ we will have a single band. Not all energies are accessible of all the eigenstates exist. 
+ 
+ What we would expect is a single band, the width of this band we can call W, if this is a
+ square lattice, this W from the calculation by tight-binding model would be 8t (4t - (-4t)). 
+ (我们所期望的是一个单能带，这个能带的宽度我们可以称之为W，如果这是一个正方形晶格，通过紧束缚模型计算得到的W将是8t（4t-（-4t））。)
+ 
+ ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig28.png)
+ 
+ If we want to have a half-filled system with average occupation of each sitw of 1, then we just fill 
+ up the single particle states up untile the Fermi energy. If exactly half of the total number of states
+ lie below the Fermi energy, then we have a half-filled system. 
+ (如果我们想要一个半填充系统，每个位置的平均占有率为1，那么我们只需要填充单个粒子的状态，直到费米能量。
+ 如果总态数的一半正好位于费米能量以下，那么我们就有了一个半填充系统。)
+ 
+ We can control the occupation of our system by changing the chemical potential. 
+ We can actually add that into our Hamitonian. 
+ (我们可以通过改变化学势来控制系统的占据数。实际上，我们可以将其添加到我们的哈密顿中。)
+ 
+ $$-\mu\sum_{i\sigma}n_{i\sigma}$$
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig29.png)
+
+This would be a constant shify in the energy of the whole system, which basically defines the Fermi energy. 
+If we want a half-filled system, which in the limits that we just pick $\mu =0$. Because exactly half of the total 
+number of states lie below the Fermi energy, when we want to fill up the firm sea until the Fermi energy exactly 
+half the states are filled. 
+
+**\mu =0 的时候对应的体系处于半满的状态，这种描述方式来自于对基于tight-binding-model的单粒子模型, 也就是半满的时候**
+**刚好将费米面以下填充完, 对应的费米面的能量刚好为零，因为整个能带的宽度是 -4t 到 4t，0 刚好是费米能，而费米能通过化学势**
+**调节，所以化学势为零刚好对应的是半满的状态**
+
+**如果我们将库伦相互作用增大一点，以上描述的图像基本不发生改变**
+
+### 第二种情况，隧穿 t = 0
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig30.png)
+
+This is the so-called atomic limit, because we imagine each atom being now totally isolated from all of 
+the neighbors. What do we expect from the density of states in such a case? 
+(这就是所谓的原子极限，因为我们想象每个原子现在都与所有邻居完全隔离。在这种情况下，我们对态密度的期望是什么？)
+
+The system is going to be very highly degenerate macroscopically, beacuse we have n orbital in the system with 
+n of order 10 to 23. Understandinig the entire properties of the whole system as just highly generate version of 
+single atom and the properties of the single atom are just controled by the Coulomb term. We can actually just solve
+that exactly for a single atom, this is extremely easy to do we have just single atom. 
+(从宏观上看，这个系统将是高度退化的，因为我们在这个系统中有n个轨道，n为10的23次方。
+将整个系统的整个性质理解为单个原子的高生成版本，并且单个原子的性质仅由库仑项控制。
+实际上，我们可以精确地求解一个原子，这非常容易，因为我们只有一个原子。)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig31.png)
+
+we have this chemical potential therm in there. I can imagine applying my Hamiltonian to give a basis states 
+
+$$ H = U n_{\uparrow} n_{\downarrow} - \mu(n_{\uparrow} + n_{\downarrow})$$
+
+将哈密顿作用于真空态：
+
+$$H |vac\rangle = 0$$
+
+$$H |\uparrow\rangle = -\mu$$
+
+$$H |\downarrow\rangle = -\mu$$
+
+$$H |\uparrow\downarrow\rangle = u - 2\mu$$
+
+Relative to the half-filled ground state, we can have a hole excitation where we remove an electron. 
+that wolud be an energy $-\mu$. 
+(相对于半填充基态，我们可以有一个空穴激发，在这里我们可以去除一个电子。对应的energy变化为 -$\mu$。)
+
+We can also have electron excitation, where we would have energy $U - 2\mu$. 
+(也可以是电子激发，对应的energy 为 $U - 2\mu$)
+
+$$0 < \mu < U$$
+
+One excitation below the Fermi energy and one excitation above the Fermi energy. 
+(一个激发在费米面的上面，一个激发在费米面的下面)
+
+**相当于整个体系看成了单粒子的图景，总共有4个能级，0，-mu, -mu, U-2mu, 这个就是整个系统的一个激发能谱,** 
+**空穴激发对应的就是 -\mu, 电子激发对应的就是 U-2\mu**
+
+(这就是没有隧穿项，只有库伦的物理图像)
+
+### 在U很大, t=0，的基础上 增加一点点 t, 也是就是能稍微的隧穿
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig32.png)
+
+
+对应于 $-\mu$ 和 $U-2\mu$的这两条线就会有一个展宽。尽管有一个展宽，但是两个展宽区域并不交叠，存在有限大的能隙，
+这样的能隙是库伦相互作用导致的。这是一个绝缘体。
