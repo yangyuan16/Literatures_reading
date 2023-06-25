@@ -352,7 +352,7 @@ One excitation below the Fermi energy and one excitation above the Fermi energy.
 
 **采用平均场的方法来求解这样的系统，Hatree-Fork 近似**
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig31.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig33.png)
 
 **首先通过Fourier 变换变到 K space (尽管相互作用项不能这样变换，但是我们可以形式上先写出来)**
 
