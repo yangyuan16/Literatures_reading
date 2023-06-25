@@ -339,6 +339,48 @@ One excitation below the Fermi energy and one excitation above the Fermi energy.
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig32.png)
 
-
 对应于 $-\mu$ 和 $U-2\mu$的这两条线就会有一个展宽。尽管有一个展宽，但是两个展宽区域并不交叠，存在有限大的能隙，
 这样的能隙是库伦相互作用导致的。这是一个绝缘体。
+
+## Stoner model of itinerant ferromagnetism (巡回铁磁性质的Stoner 模型)
+
+**我们观察 Hubbard model 就会发现在绝缘体中(库伦排斥比较大) 容易出现有序的磁序，而在金属项中，**
+**spin 比较无序，不会表现出磁性。在自然界中，铁同时具有导电性和铁磁性。从Hubbard模型出发，理解**
+**在金属相中，铁磁性的起源**
+
+**对于像铁一样的重金属，强的库伦相互作用来源于D轨道和F轨道的电子**
+
+**采用平均场的方法来求解这样的系统，Hatree-Fork 近似**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig31.png)
+
+**首先通过Fourier 变换变到 K space (尽管相互作用项不能这样变换，但是我们可以形式上先写出来)**
+
+$$\frac{U}{N^2}\sum_{k_1,k_2,k_3,k_4}C_{k_1,\uparrow}^{+}C_{k_2,\uparrow}C_{k_3,\downarrow}^{+}C_{k_4,\downarrow}$$
+
+We have a conservation of charge and we have conservation of spin. But if we also have the 
+conservation of momentum:
+
+$$k_1 + k_3 = k_2 + k_4$$
+
+我们可以将动量写成这样：
+
+$$k_2 = k_1 + q$$
+
+$$k_4 = k_3 - q$$
+
+**我们可以将动量空间的库伦排斥重新写为**：
+
+$$\frac{U}{N^2}\sum_{k,k',q}C_{k+q,\uparrow}^{+}C_{k,\uparrow}C_{k'-q,\downarrow}^{+}C_{k',\downarrow}$$
+
+**对将动量空间的库伦排斥进行平均场近似**
+
+$$C_{k+q,\uparrow}^{+}C_{k,\uparrow}C_{k'-q,\downarrow}^{+}C_{k',\downarrow} = C_{k+q,\uparrow}^{+}C_{k,\uparrow}\langle C_{k'-q,\downarrow}^{+}C_{k',\downarrow}\rangle$$
+
+**consider all possible combinations: 考虑所有可能的两算符期望形式**
+
+$$
+C_{k+q,\uparrow}^{+}C_{k,\uparrow}C_{k'-q,\downarrow}^{+}C_{k',\downarrow} 
+= C_{k+q,\uparrow}^{+}C_{k,\uparrow}\langle C_{k'-q,\downarrow}^{+}C_{k',\downarrow}\rangle
++\langle C_{k+q,\uparrow}^{+}C_{k,\uparrow}\rangle C_{k'-q,\downarrow}^{+}C_{k',\downarrow}
+$$
