@@ -462,3 +462,25 @@ $$\frac{h^2}{2m}(6\pi)^{\frac{2}{3}}\bar{n}_{\downarrow}^{\frac{2}{3}} + U\bar{n
 ## 从 Hubbard 模型过度到 Heisenberg 模型
 
 库伦相互作用 U 很大，电子数平均值为 $\langle\hat{n}_i\rangle = 1$
+双占据数的期望为0, $\langle\hat{n}_{i\uparrow}\hat{n}_{i\downarrow}\rangle = 0$
+
+也就是 每个格点都局域一个自旋。
+
+What we want to do is that drive an effective model which involves just the spin degrees 
+of freedom rather than including also charge fluctuations on each side. We want to drive it 
+rigorously from the Hubbard model. We will see that the effective model is the Heisenberg model. 
+
+### 对隧穿项做微扰理论
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig39.png)
+
+
+> 为什么限制到半满状态就要加一个化学势term进来呢？
+
+1:58:24
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig40.png)
+
+> **从这里可以看出化学势给出的势能和自旋方向没有关系，只和总的粒子数有关**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig41.png)
