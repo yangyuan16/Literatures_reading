@@ -205,4 +205,42 @@ different lattices.
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig18.png)
 
+
 **由于很强的库伦排斥作用，电子会隧穿回原来的位置，这个时候隧穿回来的时候自旋可能会发生反转**
+**虽然库伦排斥很强，但是由于是量子力学系统，仍然会有很小的概率发生隧穿，再回到原来的位置上，导致自旋反转**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig19.png)
+
+**由于很强的相互排斥，电子被局域到格点上，电子在lattice 上不能自由移动，如果电子跃迁到了近邻的位置，它又必须跃迁回来，使得**
+**整个pattern能量最低**
+
+### 这样的绝缘体有什么样的性质呢？
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig20.png)
+
+Actually the insulator is magnetic, it has antiferromagnetic ordering. 
+Due to the excitation process, here, we have two electrons paralled lines 
+because I hopped the one electron over from one sites. 
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig21.png)
+
+**当两个自旋相同的时候，两个相邻自旋之间的tunneling 不会发生，根据泡利规则，相同方向的两个自旋不能占据同一个轨道。**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig22.png)
+
+**从这个角度出发，一定程度上解释了为什么超导中的存在的都是反铁磁涨落，因为由于Pauli不相容原理，铁磁涨落导致两个不同格点的自旋不能隧穿，也就不会存在**
+**onsite 的库伦相互作用，也就不会有隧穿现象的发生，肯定不会导致超导，不会存在 spin flip 激发**
+
+### 考虑 spin 为 反铁磁关联
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig23.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig24.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig25.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig26.png)
+
+**这些反铁磁spin之间并不是静态的，而是会相邻格点之间互相tunnelg, 只不过形成 onsite 的2个电子的生命时间非常短，很快又会隧穿**
+**回原来的位置上，这样的激发过程也可以看作是一种虚拟激发，这也是符合量子力学图景的**
+
