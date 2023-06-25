@@ -384,3 +384,72 @@ C_{k+q,\uparrow}^{+}C_{k,\uparrow}C_{k'-q,\downarrow}^{+}C_{k',\downarrow}
 = C_{k+q,\uparrow}^{+}C_{k,\uparrow}\langle C_{k'-q,\downarrow}^{+}C_{k',\downarrow}\rangle
 +\langle C_{k+q,\uparrow}^{+}C_{k,\uparrow}\rangle C_{k'-q,\downarrow}^{+}C_{k',\downarrow}
 $$
+
+**Hartree-Fock Approximation**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig34.png)
+
+**首先这里从自旋向下到自旋向上的反转过程中，这里没有散射，这是因为在原始的模型中，总自旋是一个守恒量（we have overall spin** 
+**conservation）, 因此:** 
+
+$$\langle C_{k_1,\uparrow}^{+} C_{k_2,\downarrow}\rangle = 0$$
+
+$$\langle C_{k_1,\downarrow}^{+} C_{k_2,\uparrow}\rangle = 0$$
+
+**考虑散射只是发生在壳层上，也就是只有对角项:**
+
+$$\langle C_{k_1,\uparrow}^{+} C_{k_2,\uparrow}\rangle = \delta_{k_1,k_2}\bar{n}_{k_1,\uparrow}$$
+
+$$\langle C_{k_1,\downarrow}^{+} C_{k_2,\downarrow}\rangle = \delta_{k_1,k_2}\bar{n}_{k_1,\downarrow}$$
+
+$$(q=0)$$
+
+从这里可以看出来，我们试图上 $k_1 \uparrow$ 上的粒子数 和 $k_2 \downarrow$ 上的粒子数是不一样的。
+
+**我们想要去描述系统中的铁磁相，也就是说我们想要粒子数依赖于自旋的方向**。
+**因此, 这里存在一个对称破缺, 也就自旋向上的粒子数不等于自旋向下的粒子数**
+**这样的对称性并不是来自于实空间中的原始模型，**
+**也就是采用平均场理论的话，会强行破缺掉一些对称性**
+
+Futher more, we can consider the momentum summed occupation, which we will call $n$ up the average of n up. 
+This is going to be just the sume over all momenta of $k$ up object:
+
+$$\bar{n}_{\uparrow} = \frac{1}{N^2}\sum_{k}\bar{n}_{k\uparrow}$$
+
+$$\bar{n}_{\downarrow} = \frac{1}{N^2}\sum_{k}\bar{n}_{k\downarrow}$$
+
+We can now substitute that into our mean field Hamiltonian and we will get the following：
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig35.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig36.png)
+
+**色散关系写为**
+
+$$\epsilon_{k\uparrow} = \epsilon_k + U\bar{n}_{\downarrow}$$
+
+$$\epsilon_{k\downarrow} = \epsilon_k + U\bar{n}_{\uparrow}$$
+
+### 构建平均场自洽方程
+
+If our system is a free electron gas, that's just related to the Fermi-Dirac distribution.
+(如果近似完之后是一个自由电子气体模型，我们可以用费米-狄拉克分布来计算期望值)
+ Let's connect the occupation number to the Fermi wave number (让我们将占据数和费米波数连接起来)：
+
+$$\bar{n}_{\sigma} = \frac{1}{6\pi^2}K_{F\sigma}^3$$
+
+$K_{F\sigma}$ 是 Fermi wave number (费米波数)
+
+Fermi wave number of the system is of course related to the chemical potential (**费米波数和化学势有关**)
+
+$$\frac{h^2}{2m}K_{F\sigma}^2 = \mu_{\sigma} = \mu - U\bar{n}_{\bar{\sigma}}$$
+
+可以得到：
+
+$$\frac{h^2}{2m}(6\pi)^{\frac{2}{3}}\bar{n}_{\uparrow}^{\frac{2}{3}} + U\bar{n}_{\downarrow} = \mu$$
+
+$$\frac{h^2}{2m}(6\pi)^{\frac{2}{3}}\bar{n}_{\downarrow}^{\frac{2}{3}} + U\bar{n}_{\uparrow} = \mu$$
+
+这样的色散模型对于自由电子气体模型是有效的。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig37.png)
