@@ -140,3 +140,51 @@ number of electrons in a particular orbital and the number of electrons in diffe
 
 ## Hubbard model 哈伯德模型
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig6.png)
+
+Hubbard model 可以描述重费米子系统，Lanthanide materials (镧系材料), 
+a variant on the Hubbard model called the periodic Anderson model captures very
+well the properties of lanthanide materials, which give rise to so-called condo inssulating
+behavior. (Hubbard模型的一个变体称为周期性Anderson模型，它很好地捕捉到了镧系元素材料的特性，从而产生了所谓的Condo绝缘行为。)
+
+These Hubbard models also probably most importantly describe high-temperature superconductors. 
+In particular, these high-temperature superconductors have copper oxide planes typically in these
+perovskites at least they have these copper oxide planes, which are basically perfect 2d square lattices,
+and they described well by the Hubbard model on a 2d square lattice.
+It is believed that this even the simple model, the Hubbard model of the 2d square lattice, 
+can capture the essence of high-temperature superconductivity. There are vast amout of work on this 
+and I would say that the matter is still not settled. 
+(这些哈伯德模型也可能是最重要的描述高温超导体。特别是，这些高温超导体通常在这些钙钛矿中具有氧化铜平面——至少它们具有这些氧化铜平面，
+它们基本上是完美的二维正方形晶格，并且它们通过二维正方形晶格上的Hubbard模型得到了很好的描述。
+人们相信，即使是简单的二维正方形晶格的Hubbard模型，也能捕捉到高温超导的本质。
+在这方面有大量的工作，我想说这件事仍然没有解决。)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig7.png)
+
+Hubbard model 很难求解，if we look at a ratio u/t that very small, we can do perturbation theory in the 
+interaction strength U. If we consider very very large, we can do the perturbation theory in the tunneling team.
+But actually a great actually deal of interesting physics happens when U/t = 1. (如果我们看一个比值u/t很小，
+我们可以在相互作用强度u中做微扰理论。如果我们考虑非常非常大，我们可以对隧道团队做微扰论。
+但实际上，当u/t=1时，会发生很多有趣的物理现象。)
+
+## The underlying physics of Hubbard model
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig8.png)
+
+For example, metallic behavior, insulating behavior, magnetism, super conductivity, if you consider 
+different lattices. 
+
+## Half-field lattice Hubbard model 
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig9.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig10.png)
+
+这个对应的就是粒子-空穴激发，只有当两个不同的自旋占据同一个轨道的时候，会形成一个近程的库伦相互作用。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig11.png)
+
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig12.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig13.png)
