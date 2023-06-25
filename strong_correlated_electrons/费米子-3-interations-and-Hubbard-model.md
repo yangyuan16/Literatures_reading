@@ -453,3 +453,12 @@ $$\frac{h^2}{2m}(6\pi)^{\frac{2}{3}}\bar{n}_{\downarrow}^{\frac{2}{3}} + U\bar{n
 这样的色散模型对于自由电子气体模型是有效的。
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig37.png)
+
+### 讨论平均场的解
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs/electronics-interactions-Hubbard/fig38.png)
+
+
+## 从 Hubbard 模型过度到 Heisenberg 模型
+
+库伦相互作用 U 很大，电子数平均值为 $\langle\hat{n}_i\rangle = 1$
