@@ -5,3 +5,7 @@ ran 的文章中有很多关于纠缠普和纠缠熵的结果。
   (3) 可以用PCA分析一下 态矢量。the distance of the state.
   (4) 我们计算的都是J1-J2的这种阻挫体系，还没有算过 alternative tunneling term 的这种情况 （一维的无相互作用SSH model 中 存在的就是
   alternative tunneling term, 交替隧穿相。） 
+  (5) 在“Ground-state phase diagram of the t-t'-J model” Jang, Scalapino, and White (2021) 这篇文章中，为了
+  画出不同相（d-wave 超导，AFM, Stripe 相）中自旋和电荷密度（空穴）的构型，作者采用了这样一种办法：构造不同的直积态，
+  然后看每个相中，看哪个直积态出现的概率最大。可否用一些机器学习方法来替代这一过程？找到一些简单的直观的态，这些态能反映出
+  一些奇异的量子相。原文中在寻找 holes 失效，因为低浓度的掺杂导致空穴的浓度远远低于自旋。 
