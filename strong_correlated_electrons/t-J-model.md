@@ -17,7 +17,11 @@
 
 (5) A chemical potential $\mu$ is used to control the doping level in some of calculation 
 
-(6) 
+(6) For t'/t < 0, it describes a hole-doped system with electron filling $n_e = 1-x$
+
+(7) For t'/t > 0, based on a particle-hole transformation, it describes an electron-doped 
+system with $n_e = 1+x$
+
 
 ## 序参量选择
 
@@ -49,8 +53,17 @@ and temporary pinning fields, comparing energies and convergence of different st
 
 (3) 例如，**条纹状态下的八个空穴可能会形成两个四空穴条纹或四个两空穴条纹**。在这种情况下，我们会尝试两种可能性并比较能量。
 
+(4) **Doping x ($n_e = 1-x$ or $n_e = 1 + x$) varies shlowly along the length of the cylinder.** 
+
+(5) **x is fixed, t' slowly varing along the length of the cylinder**
+
+(6) **Spontaneously broken symmetry in DMRG**
+
 > 这样的设定在代码中怎么实现的？
 
+> **第(4)点和 第（5）点怎么理解呢？, x 和 t' 沿着 cylinder 是变化的**
+
+> **DMRG中的自发对称破缺应该怎么做呢？**
 
 ## t-t'-J 模型的背景和设定
 
@@ -84,6 +97,8 @@ pairing correlations are weak.
 
 (5) Signigicantly, negative t' is found to decrease the pairing correlations, this phase makes up 
 most of the t'<0 side of the diagram. (**空穴掺杂会导致配对关联减弱**)
+
+(6) 
 
 ### t' < 0 空穴掺杂的情况
 
@@ -244,19 +259,69 @@ real experimental sample does
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig4.png)
 
+(1) **随着掺杂的增加，远离半填充，配对迅速增加**
 
+> **这个图 x 方向对应的是晶格的 x 方向吗？**
 
-
+> **d-wave 单态配对关联为什么有正有负呢？**
 
 ### 固定 x 沿着 t' 方向扫描
 
 (1) **在 t' 变化的情况下，还需要调整化学势 $\mu$, 以保持整个系统的掺杂大致恒定**
 
-$$\mu{l_x}=\mu_0 + a\sqrt{1+(b|2l_x-L_x|/L_x)^2}$$
+$$\mu{(l_x)}=\mu_0 + a\sqrt{1+(b|2l_x-L_x|/L_x)^2}$$
 
 (2) 
+
+> **扫描这一块儿的时候为什么会加一个 pin field**
+
+## 低电子浓度掺杂相，AFM, d-wave Singlet, ($\pi, \pi$) p-wave Trilet Pairing 共存
+
+(1) **这一区域中，主要存在两种序参量，Uniform AFM order 和 强的 d-wave singlet 配对。**
+
+(2) **同时还存在弱的 p-wave triplet 配对，P 波的配对是由于 AFM 和 d-wave 的共同存在导致的**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig5.png)
+
+(3) **(c)子图是 Triplet pairing 的示意图**
+
+(4) **不管加多强的 pin 场，Singlet pairing 都是稳定的，Triplet pairing 会随着 pin 场的减小而减小**
+
+(5) **这里不会出现其他竞争的态, 从非配对的直积态开始, 系统自发破缺了粒子数守恒的对称性，形成了配对序**
+
+(6) $(\pi,\pi)$ p_x - p_y form:
+
+$$\langle\Delta_t(l_x,l_y)\rangle = e^{i\pi(l_x+l_y)}[\langle\Delta_t(l_x,l_y,x)\rangle - \langle\Delta_t(l_x,l_y,y)\rangle]$$
+
+$\Delta_t{(l_x,l_y,x/y)}$ being a triplet pairing on a horizontal/vertical link with left/lower site $(l_x,l_y)$
+
+(7) **This triplet order is a consequence of the other two order, not a competing order**
+(**三重态配对是来源与另外两个主要的序，也就是 AFM 和 Singlet pairing, 三重态配对并不是一个竞争序**)
+
+(8) As mentioned before, the existence of AFM order breaks SU(2) spin symmetry, so that singlet and triplet 
+pairings are no longer distinct, making the d-wave pairing have a triplet component. 
+(**AFM有序的存在打破了SU(2)的自旋对称性，使得自旋单态和自旋三重态配对不再明显，使得d-wave配对具有三重态分量**)
+
+(9) The magnitude of the triplet pairing is roughly proportional to that fo the singlet pairing, 
+$\langle\Delta_t \rangle / \langle\Delta_s\rangle = 0.4$, if no magnetic field is applied, and this 
+ratio is mostly t' independent. 
+
+(10) It is interesting that there is no competition betwee strong AFM order and d-wave pairing;
+they happily coexist, but as a consequence of increased AFM order, the triplet order gets larger. 
+(**加了global 交错磁场之后, 由于 AFM 的增强, triplet pairing order 也增强了**)
+
+(11) **三种序之间的关系很稳定**：
+
+$$\langle\Delta_t\rangle = A(x)\langle\Delta_s\rangle\langle S_z\rangle$$
+
+这一关系在文章[Coexistence of superconductivity and antiferromagnetism in the Hubbard model for cuprates](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.184510)也被发现
+
+> 第（7） 点，**为什么三重态配对序是来自于其他两个序呢？**
+
+> 第（8）点怎么理解呢？
 
 ## Questions: 
 
 > 什么是条纹相
 
+## 相关文献
