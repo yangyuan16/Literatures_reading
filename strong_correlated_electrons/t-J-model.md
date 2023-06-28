@@ -320,8 +320,12 @@ $$\langle\Delta_t\rangle = A(x)\langle\Delta_s\rangle\langle S_z\rangle$$
 
 > 第（8）点怎么理解呢？
 
+## 高浓度电子掺杂相：Stripes with d-Wave Singlet and Striped p-Wave Pairing
+
+
+
+
 ## Questions: 
 
-> 什么是条纹相
 
 ## 相关文献
