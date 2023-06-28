@@ -207,6 +207,55 @@ path through the reset of the sites, optimizing each spin and projecting.
 
 > **(E) 和 (F) 子图是怎么看出来空穴没有配对的？(holes unpaired within the stripes), 怎么看出条纹的？**
 
+
+## 参数空间扫描相图
+
+(1) **扫描相图最最需要注意的地方就是确定态是否是亚稳态(metastable state)**
+
+(2) In nonscan calculations where one is looking for a particular order, it is common to 'pin the edges' with a 
+corresponding field applied to the edge sites. 
+(**在寻找特定顺序的非扫描计算中，通常将相应的场应用于边缘位置来“固定边缘”**)
+
+(3) The gist is that DMRG tends to break a continuous symmetry and develop an order parameter just as a 
+real experimental sample does 
+(**要点是，DMRG倾向于打破连续对称性，产生出一个序参量，就是真实的实验样本一样**)
+
+(4) **在大的保留截断的极限下，对称性的破坏会消失，对于中等的截断，系统产生了一个序参量，序参量的量级与2D**
+ **热力学极限下的量级相似**
+
+(5) **消除对称破缺所需要的截断维数随着系统尺寸会迅速增加，试图收敛到不发生对称破缺可能会适得其反，因为在满足对称性的相中**，
+**序参量只能通过关联函数来观察，并且可能错过一些意味的序参量, 另外关联函数本质上远不如局域测量准确**
+
+(6) **当系统中存在很强的 d-wave 超导相的时候，我们不采用外加 pin field, 而是让系统 self-pin**
+
+(7) **当系统中 d-wave 超导， 我们加载一个弱的全局的配对场，通过这一方式，如果 SC 不存在的话，那么这就是一个**
+**清晰的信号，超导态并不是最低能态**
+
+(8) **在一些情况下，我们会在系统的边缘加一个pin场来减少edge effect, 这样的pin field并不会影响bulk 的磁序**
+
+
+> 这个过程是怎么做的？
+
+> 第(4)点是怎么理解呢？
+
+> 第(5)点怎么理解呢？
+
+### 固定 t' 沿着 x 方向扫描
+
+
+
+
+
+
+### 固定 x 沿着 t' 方向扫描
+
+(1) **在 t' 变化的情况下，还需要调整化学势 $\mu$, 以保持整个系统的掺杂大致恒定**
+
+$$\mu{l_x}=\mu_0 + a\sqrt{1+(b|2l_x-L_x|/L_x)^2}$$
+
+(2) 
+
 ## Questions: 
 
 > 什么是条纹相
+
