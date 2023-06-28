@@ -242,6 +242,7 @@ real experimental sample does
 
 ### 固定 t' 沿着 x 方向扫描
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig4.png)
 
 
 
