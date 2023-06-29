@@ -40,4 +40,32 @@
 
 ### CDW phase
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-SSGong/fig1.png)
+
 (1) In the CDW phase, we identify stripe orders with wavelength $\lambda= 4 / (L_y\delta)$ 
+
+(2) $n_x = \sum_{y=1}^{L_y}\langle\hat{n}_{x,y}\rangle / L_y$
+
+(3) $\lambda = 4/(L_y\delta)$ Each stripe is filled with four holes. (**每个条纹里面有4个孔**)
+
+(4) 
+
+> **怎么看出CDW在y方向上的平移不变，均匀的**
+
+> **怎么看出 CDW phase 中孔的数量的？, 一个条纹里面有4个孔**
+>**波矢为8，一个条纹里面有 4 个孔**
+
+### SC phase
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-SSGong/fig2.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-SSGong/fig4.png)
+
+(1) **关联函数中的插图显示处 D-wave 对称性**
+
+> **如果是 p 波配对还是这样的构型吗？**
+
+### SC+CDW phase
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-SSGong/fig3.png)
+
+(1) **波矢 $\lambda = 4$, 每个条纹里面有2个孔**
