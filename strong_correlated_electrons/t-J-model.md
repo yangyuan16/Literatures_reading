@@ -322,10 +322,50 @@ $$\langle\Delta_t\rangle = A(x)\langle\Delta_s\rangle\langle S_z\rangle$$
 
 ## 高浓度电子掺杂相：Stripes with d-Wave Singlet and Striped p-Wave Pairing
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig6.png)
+
+(1) The doping is x = 0.2 and t' = 0.2
+
+(2) p pairing is modulated by the domain walls in the antiferromagnetism
+
+(3) The striped phase looks like stripes at t' < 0 if one looks only at the charge and spin.
+Unlike that case, here we have clear d-wave pairing, although not as strong as at lower doping.
+
+## 传统条纹序和低浓度掺杂的W3条纹序
+
+(1) The hole and spin pattern of conventional stripes without pairing is very similar to that of stripes with pairing.
+
+(2) stripes at t' = 0.2 are homogeneous is hole density and spin along the stripes while at t' = -0.2 there is a small 
+moodulation along each stripe. 
+
+(3) **在传统的条纹态中，即使加很强的全局配对场，仅仅会有很弱的配对响应出来，而且pair-pair关联函数呈现指数衰减**
+
+(4) **W3 条纹态与传统的条纹态非常不同，理解W3条纹态的关键是海森堡两腿梯子。**
+**海森堡两腿梯子的能隙是 J/2, 具有短程的自旋关联，关联的长度约为 3.19**
+
+(5) **W3 条纹本身类似于 t-J 链，大于每4个晶格间距会有一个孔，孔是没有束缚的，沿着链条会有强烈的跳跃**
+**梯子上面也会有跳跃，主要还是在链条上不断跳跃**
+
+(6) **这些空穴在海森堡链中起到了移动畴壁的作用**
+
+## 能隙 （Energy Gaps）
+
+$$\Delta E_n = [E(N_0 + n) + E(N_0 - n) - 2E(N_0)]/2$$
+
+(1)**由于系统的有限尺寸，该公式表现出有限尺寸效应。有限长度表现为E(N)的整体曲率,**
+**这可以被视为化学势随N的移动。在无限系统中，当添加有限数量的粒子时，化学势不会移动**
+
+(2) **我们发现直接绘制 E(N) 并将点的下包络拟合为二次函数更为方便，而不是在系统大小上进行外推**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig7.png)
 
 
-
+> 这个怎么理解呢？
 ## Questions: 
 
 
 ## 相关文献
+
+## 灵感
+
+(1) **二维的t-J'-J模型中，会出现自旋梯子**
