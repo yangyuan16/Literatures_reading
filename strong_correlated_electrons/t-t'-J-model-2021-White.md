@@ -5,7 +5,7 @@
 
 ## 系统的哈密顿量
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig1.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig1.png)
 
 (1) t' < 0 属于空穴掺杂；t'>0 属于电子掺杂
 
@@ -156,7 +156,7 @@ The higest-probability configuration of a pair of holes is diagonal next-nearest
 
 ## 构型图
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig3.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig3.png)
 
 ### A 子图和 B子图
 
@@ -257,7 +257,7 @@ real experimental sample does
 
 ### 固定 t' 沿着 x 方向扫描
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig4.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig4.png)
 
 (1) **随着掺杂的增加，远离半填充，配对迅速增加**
 
@@ -281,7 +281,7 @@ $$\mu{(l_x)}=\mu_0 + a\sqrt{1+(b|2l_x-L_x|/L_x)^2}$$
 
 (2) **同时还存在弱的 p-wave triplet 配对，P 波的配对是由于 AFM 和 d-wave 的共同存在导致的**
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig5.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig5.png)
 
 (3) **(c)子图是 Triplet pairing 的示意图**
 
@@ -322,7 +322,7 @@ $$\langle\Delta_t\rangle = A(x)\langle\Delta_s\rangle\langle S_z\rangle$$
 
 ## 高浓度电子掺杂相：Stripes with d-Wave Singlet and Striped p-Wave Pairing
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig6.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig6.png)
 
 (1) The doping is x = 0.2 and t' = 0.2
 
@@ -357,10 +357,40 @@ $$\Delta E_n = [E(N_0 + n) + E(N_0 - n) - 2E(N_0)]/2$$
 
 (2) **我们发现直接绘制 E(N) 并将点的下包络拟合为二次函数更为方便，而不是在系统大小上进行外推**
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-J-model/fig7.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig7.png)
 
+> 这个能量曲线怎么理解呢？
 
-> 这个怎么理解呢？
+(3) The gaps are then measured by how many points rise above the quadratic fit
+(**然后通过超过二次拟合的点数来测量能隙**)
+
+(4) **在AFM-d-\pi-p phase 中, 奇数个粒子数对应的能量比较高，这是因为在超导态中，奇数个粒子的系统会多出一个准粒子，我们可以将**
+**这样的能隙看作是超导能隙，这里超导能隙大约是0.12**
+
+(5) **相反的，在传统的条纹序之中，看到了两种gap, 奇数个粒子的高能量对应于配对的破坏（broken pairs）,**
+**然而我们也可以看到在偶数个粒子的部分, multiples of four are lower in energy than nonmultiples of four**
+**这是因为在这样的系统中，有四个孔，四个孔形成两对，每一对都是束缚的**
+
+(4) **W3 条纹相中，我们可以看到单粒子的能隙变小**
+
+## 与铜酸盐(Cuprates)进行比较
+
+(1) We first look at the momentum distribution function $n(k)$ by measuring the single-particle Green's function
+in real space and Fourier transforming it.
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig8.png)
+
+(2) **左图和空穴掺杂的铜酸盐非常相似，中间图和电子掺杂的铜酸盐非常相似**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2021-White/fig9.png)
+
+(3) **在相图比较中，我们计算和实验有一处非常不同，我们的计算显示在空穴掺杂的区域，超导被严重压制了，然而**
+**在实验的中，这一区域会出现超导**
+
+(4) **完全理解铜酸盐相图需要超越t-t'-J模型**
+
+(5) **是否需要考虑Hubbard模型呢？在将两个粒子态从Hubbard重整化到t-t'-J模型的过程中，有一些与J阶数相同的项被省略掉了**
+
 ## Questions: 
 
 
