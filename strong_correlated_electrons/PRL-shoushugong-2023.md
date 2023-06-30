@@ -56,3 +56,67 @@ TSC提供了一种新的机制。
 
 ### 哈密顿和参数设置
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig1.png)
+
+(1) $J_1 = 1$
+
+(2) $t_1 / J_1 = 3$
+
+(3) $t_1 / J_1 = 3$ to mimic a strong Hubbard interaction U/t = 12
+
+(4) The electron number $N_e$ is related to hole doping level $\delta$ as $N_e/N=1-\delta$
+
+> **为什么 t_1/J_1 = 3 可以模拟哈伯德中的 U/t = 12**
+>  
+> **电子数与掺杂浓度的关系**
+> $$N_e/N = 1 - \delta$$
+
+## 相图和陈数
+
+ $$\delta = 1/12$$
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig2.png)
+
+(1) **在小的 $J_2$ 和 $t_2$ 区域, 出现一个赝能隙相, 这个相里面主要是 CDW order 和 短程的 d-wave SC 涨落**
+
+(2) **TSC (拓扑超导) 会在次近邻强度中等的区域出现, d-wave 超导出现在较大的的次近邻耦合区域**
+
+(3) **To identify the topological nature of the phases, we perform the inserting flux simulation flux adiabatically**
+**with $\theta_F \rightarrow \theta_F + \Delta \theta_F$, and $\Delta\theta_F = 2\pi/16$**
+
+(4) We measure the accumulated spin 
+
+$$Q_s = n_{\uparrow} - n_{\downarrow}$$
+
+$n_{\sigma}$ is the total charge with spin $\sigma$ near the edge. 
+
+(6) **在次近邻强度中等的区域，可以获得非零的 $\Delta Q_s$, 随着 $\theta_F$ 线性增加，如 Fig2(a)**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig3.png)
+
+(7) **当 $\theta_F$ 从 0 变到 2$\pi$ 的时候，陈数变化为：**
+
+$$C = \Delta Q_s = 2.0$$
+
+**这刻画了一个非常稳定的时间反演对称性的拓扑态**
+
+(8) ****
+
+
+indicating a the uniform Berry curvature. 
+
+Because the time-reversal symmetry is breaking spontaneously, we can identify nonzero Chern number 
+C=2/-2 with equal probability in our DMRG simulation with random initial complex wavefunction. 
+
+
+> **这里的拓扑性质是怎么刻画的？** 
+
+> **用无限大DMRG算法来计算 flux 的绝热过程**
+
+> **在左边缘测量每一个累计自旋 $Q_s = n_{\uparrow} - n_{\downarrow}$, $n_{\sigma} 是在边缘**
+> **自旋 $\sigma$ 对应的总的电荷, 当 $\theta_F$ 从 0 变化到 $2\pi$ 的时候, 陈数就等于 $\Delta D_s$**
+
+> **平均格点能量 E_0 随着 $\theta_F$ 平缓的变化, 表示 gapped spectrum flow and robust topological quantization**
+
+> **C**
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig3.png)
