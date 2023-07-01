@@ -114,7 +114,7 @@ $$S(\textbf{k}) = (1/N_m)\sum_{i,j}\hat{S}_i\cdot\hat{S}_je^{i\textbf{k}(\textbf
 
 (3) **k 空间的电子占据数**
 
-$$n(\textbf{k}) = (1/N_m)\sum_{i,j,\sigma}\langle\hat{c}_{i,\sigma}^{+}\hat{c}_{j,\sigma}\rangle$$
+$$n(\textbf{k}) = (1/N_m)\sum_{i,j,\sigma}\langle\hat{c}_{i,\sigma}^{+} \hat{c}_{j,\sigma}\rangle$$
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/n_k.png)
 
 
@@ -170,12 +170,6 @@ $$C = \Delta Q_s = 2.0$$
 > **The chiral orders after bond-dimension scaling to M$\rightarrow \inf$ limit remain finite, supporting**
 > **the spontaneous TRS breaking in the TSC, 手征序的出现意味着在TSC中发生了时间反演对称破缺**
 
-> **自旋单态配对关联:**
-
-$$ P_{\alpha\beta}(r) = \langle\hat{\Delta}_{\alpha}^{\dagger}(r_0)\hat{\Delta}_{\beta}(r_0 + r)\rangle$$
-
-$$\hat{\Delta}_{\alpha}(r) = (\hat{c}_{r\uparrow}\hat{c}_{r+e_\alpha\downarrow} - \hat{c}_{r\downarrow}\hat{c}_{r+e_\alpha\uparrow})/sqrt{2}$$
-
 > **在 t_2 = J_2 =0  的情况下，自旋单态配对关联为 0, 在 CDW+SDW 相中，配对关联会稍微增强，在TSC 和 SC 中会显著增强** 
 > 
 ## 自旋结构因子和电荷占据数
@@ -183,7 +177,24 @@ $$\hat{\Delta}_{\alpha}(r) = (\hat{c}_{r\uparrow}\hat{c}_{r+e_\alpha\downarrow} 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig5.png)
 
 
+## 不同相中关联函数和序参量的表现
 
+### CDW + SDWF 相
+
+(1) **$t_2 = J_2 = 0$的时候，自旋关联指数衰减，关联长度为 $\xi_S \approx 9.2$**,
+**说明没有磁序，而且短程的自旋密度波函数(SDWF)**
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_1.png)
+
+(2) **$t_2 = J_2 = 0$的时候，对比自旋关联函数，单粒子关联函数，密度关联函数，配对关联函数，**
+**尽管自旋关联函数相对来说还是最强的，单粒子关联函数的指数衰减关联长度为 $\xi_G\approx 3.7$**
+**尽管配对关联函数也衰减的非常快，但是比两个单粒子关联函数要强的多，**
+**这意味着单粒子通道会被压制**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_2.png)
+
+(3) **当 $(t_2/t_1)^2 = J_2/J_1 = 0.02$ 的时候, 配对关联函数增强，关联函数呈现代数衰减**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_3.png)
 
 
 ## Fluctuating superconductivity in the CDW + SDWF phase (CDW 和 SDWF 中的涨落超导性)
