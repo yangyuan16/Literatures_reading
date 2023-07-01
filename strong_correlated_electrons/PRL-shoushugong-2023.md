@@ -71,6 +71,41 @@ TSC提供了一种新的机制。
 > **电子数与掺杂浓度的关系**
 > $$N_e/N = 1 - \delta$$
 
+## 文章所用关联函数
+
+(1) **自旋关联函数, spin correlations**
+
+$$S(\textbf{r}) = \langle\hat{S}_{\textbf{r}_0}\hat{S}_{\textbf{r}_0+\textbf{r}}\rangle$$
+
+(2) **单粒子关联函数, single-particle correlation**
+
+$$G(\textbf{r}) = \sum_{\sigma}\langle\hat{c}_{\textbf{r}_0,\sigma}^{+}\hat{c}_{\textbf{r}_0+\textbf{r},\sigma}\rangle$$
+
+(3) **密度关联函数, density correlation**
+
+$$D(\textbf{r}) = \langle\hat{n}_{\textbf{r}_0}\hat{n}_{\textbf{r}_0+\textbf{r}}\rangle-\langle\hat{n}_{\textbf{r}_0}\rangle\langle\hat{n}_{\textbf{r}_0+\textbf{r}}\rangle$$
+
+(4) **自旋单态配对关联函数, spin-singlet pairing correlations**
+
+$$ P_{\alpha\beta}(r) = \langle\hat{\Delta}_{\alpha}^{\dagger}(r_0)\hat{\Delta}_{\beta}(r_0 + r)\rangle$$
+
+$$\hat{\Delta}_{\alpha}(r) = (\hat{c}_{r\uparrow}\hat{c}_{r+e_\alpha\downarrow} - \hat{c}_{r\downarrow}\hat{c}_{r+e_\alpha\uparrow})/sqrt{2}$$
+
+## 序参量
+
+(1) **手征序，chiral prder**
+
+$$\langle\chi\rangle=\langle\hat{S}_{i}\cdot(\hat{S}_j\times\hat{S}_k)\rangle$$
+
+(2) **自旋结构因子, spin structure factor**
+
+$$S(\textbf{k}) = (1/N_m)\sum_{i,j}\hat{S}_i\cdot\hat{S}_je^{i\textbf{k}(\textbf{r}_i-\textbf{r}_j)}$$
+
+(3) **k 空间的电子占据数**
+
+$$n{\textbf{k}} = (1/N_m)\sum_{i,j,\sigma}\langle\hat{c}_{i,\sigma}^{+}\hat{c}_{j,\sigma}\rangle$$
+
+
 ## 相图和陈数
 
  $$\delta = 1/12$$
@@ -129,6 +164,24 @@ $$ P_{\alpha\beta}(r) = \langle\hat{\Delta}_{\alpha}^{\dagger}(r_0)\hat{\Delta}_
 
 $$\hat{\Delta}_{\alpha}(r) = (\hat{c}_{r\uparrow}\hat{c}_{r+e_\alpha\downarrow} - \hat{c}_{r\downarrow}\hat{c}_{r+e_\alpha\uparrow})/sqrt{2}$$
 
+> **在 t_2 = J_2 =0  的情况下，自旋单态配对关联为 0, 在 CDW+SDW 相中，配对关联会稍微增强，在TSC 和 SC 中会显著增强** 
+> 
 ## 自旋结构因子和电荷占据数
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig5.png)
+
+
+
+
+
+## Fluctuating superconductivity in the CDW + SDWF phase (CDW 和 SDWF 中的涨落超导性)
+
+### "pseudogap" behavior, 赝能隙行为
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig4.png)
+
+**用到的关联函数:**
+
+**自旋单态配对关联（spin-singlet pairing correlation）:**  $P_{\alpha\beta}$, $(\alpha = a, b, c)$
+
+(1) 在 (t_2/t_1)^2 = J_2 / J_1 = 0.02, $|P_{bb}(r)|$
