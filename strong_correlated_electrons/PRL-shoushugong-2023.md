@@ -77,15 +77,26 @@ TSC提供了一种新的机制。
 
 $$S(\textbf{r}) = \langle\hat{S}_{\textbf{r}_0}\hat{S}_{\textbf{r}_0+\textbf{r}}\rangle$$
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/corr_spin.png)
+
+
+
 (2) **单粒子关联函数, single-particle correlation**
 
 $$G(\textbf{r}) = \sum_{\sigma}\langle\hat{c}_{\textbf{r}_0,\sigma}^{+}\hat{c}_{\textbf{r}_0+\textbf{r},\sigma}\rangle$$
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/corr_number.png)
+
 
 (3) **密度关联函数, density correlation**
 
 $$D(\textbf{r}) = \langle\hat{n}_{\textbf{r}_0}\hat{n}_{\textbf{r}_0+\textbf{r}}\rangle-\langle\hat{n}_{\textbf{r}_0}\rangle\langle\hat{n}_{\textbf{r}_0+\textbf{r}}\rangle$$
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/corr_density.png)
+
 
 (4) **自旋单态配对关联函数, spin-singlet pairing correlations**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/corr_pair.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/corr_pair_2.png)
 
 $$ P_{\alpha\beta}(r) = \langle\hat{\Delta}_{\alpha}^{\dagger}(r_0)\hat{\Delta}_{\beta}(r_0 + r)\rangle$$
 
