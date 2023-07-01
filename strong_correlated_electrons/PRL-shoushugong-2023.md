@@ -100,23 +100,27 @@ $$C = \Delta Q_s = 2.0$$
 
 **这刻画了一个非常稳定的时间反演对称性的拓扑态**
 
-(8) ****
-
-
-indicating a the uniform Berry curvature. 
-
-Because the time-reversal symmetry is breaking spontaneously, we can identify nonzero Chern number 
-C=2/-2 with equal probability in our DMRG simulation with random initial complex wavefunction. 
-
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig4.png)
 
 > **这里的拓扑性质是怎么刻画的？** 
 
 > **用无限大DMRG算法来计算 flux 的绝热过程**
 
 > **在左边缘测量每一个累计自旋 $Q_s = n_{\uparrow} - n_{\downarrow}$, $n_{\sigma} 是在边缘**
-> **自旋 $\sigma$ 对应的总的电荷, 当 $\theta_F$ 从 0 变化到 $2\pi$ 的时候, 陈数就等于 $\Delta D_s$**
+> **自旋 $\sigma$ 对应的总的电荷, 当 $\theta_F$ 从 0 变化到 $2\pi$ 的时候, 陈数就等于 $\Delta Q_s$**
+
+> **这里的 $\theta_F$ 是什么了？**
 
 > **平均格点能量 E_0 随着 $\theta_F$ 平缓的变化, 表示 gapped spectrum flow and robust topological quantization**
 
-> **C**
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig3.png)
+> **在DMRG中设置复数的波函数？ Because the time-reversal symmetry is breaking spotaneously, we can iidentify**
+> **nonzero Chern number C = 2/-2 with equal probability in our DMRG simulation with random initial complex wavefunction**
+
+> **C = 2 identifies the number of chiral Majorana edge modes (马约拉纳边缘模式)**
+
+> **获取陈数沿着 $t_2/t_1$^2 = J_2/J_1, 为什么选择这样的参数路径？**
+
+> **The chiral orders after bond-dimension scaling to M$\rightarrow \inf$ limit remain finite, supporting**
+> **the spontaneous TRS breaking in the TSC, 手征序的出现意味着在TSC中发生了时间反演对称破缺**
+
+
