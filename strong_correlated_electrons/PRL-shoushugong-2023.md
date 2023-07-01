@@ -123,4 +123,12 @@ $$C = \Delta Q_s = 2.0$$
 > **The chiral orders after bond-dimension scaling to M$\rightarrow \inf$ limit remain finite, supporting**
 > **the spontaneous TRS breaking in the TSC, 手征序的出现意味着在TSC中发生了时间反演对称破缺**
 
+> **自旋单态配对关联:**
 
+$$ P_{\alpha\beta}(r) = \langle\hat{\Delta}_{\alpha}^{\dagger}(r_0)\hat{\Delta}_{\beta}(r_0 + r)\rangle$$
+
+$$\hat{\Delta}_{\alpha}(r) = (\hat{c}_{r\uparrow}\hat{c}_{r+e_\alpha\downarrow} - \hat{c}_{r\downarrow}\hat{c}_{r+e_\alpha\uparrow})/sqrt{2}$$
+
+## 自旋结构因子和电荷占据数
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig5.png)
