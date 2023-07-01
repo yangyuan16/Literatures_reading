@@ -114,7 +114,8 @@ $$S(\textbf{k}) = (1/N_m)\sum_{i,j}\hat{S}_i\cdot\hat{S}_je^{i\textbf{k}(\textbf
 
 (3) **k 空间的电子占据数**
 
-$$n{\textbf{k}} = (1/N_m)\sum_{i,j,\sigma}\langle\hat{c}_{i,\sigma}^{+}\hat{c}_{j,\sigma}\rangle$$
+$$n(\textbf{k}) = (1/N_m)\sum_{i,j,\sigma}\langle\hat{c}_{i,\sigma}^{+}\hat{c}_{j,\sigma}\rangle$$
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/n_k.png)
 
 
 ## 相图和陈数
