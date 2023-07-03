@@ -231,7 +231,25 @@ $$C = \Delta Q_s = 2.0$$
 
 $$\Delta_{\alpha}(\textbf{r}) = |\Delta_{\alpha}(\textbf{r})|e^{i\theta_{\alpha}(\textbf{r})}$$
 
+$$P_{\alpha\beta}(\textbf{r})=|P_{\alpha\beta}(\textbf{r})|e^{i\phi_{\alpha\beta}(\textbf{r})}$$
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig7_2.png)
+
+>**这个计算是这么做的，虚数部分是怎么处理的呢**
+
+> **d+id-wave 配对对称性**
+
+**在TSC中观察到的是 $\theta_{ba}=\theta_{ac}=\theta{cb}\approx 2\pi/3$, 是一种 d+id wave 配对对称性**
+
+**在 SC 中观察到的是 $\theta_{ba} = \theta_{cb} = \pi$**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig7_3.png)
+
+
+**在TSC中，自旋关联函数和单粒子关联函数都是指数衰减的，密度关联函数是代数衰减的，但是衰减指数比较大 $K_{CDW}\approx 2.4$**
+**在所有的关联函数中，配对关联函数是主要的关联函数。**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig7_4.png)
 
 
 ## nematic d-wave SC, 向列D波超导
