@@ -181,6 +181,10 @@ $$C = \Delta Q_s = 2.0$$
 
 ### CDW + SDWF 相
 
+**CDW + SDEF 相，是一个类赝能隙相（pseudogaplike phase）, 在小的次近邻耦合下，会同时存在**
+**强的自旋密度波涨落(strong density wave fluctuation,SDWF),涨落超导(fluctuating superconductivity,FSC)**
+**这种共存会是出现超导的一种趋势**
+
 (1) **$t_2 = J_2 = 0$的时候，自旋关联指数衰减，关联长度为 $\xi_S \approx 9.2$**,
 **说明没有磁序，而且短程的自旋密度波函数(SDWF)**
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_1.png)
@@ -192,19 +196,48 @@ $$C = \Delta Q_s = 2.0$$
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_2.png)
 
-(3) **当 $(t_2/t_1)^2 = J_2/J_1 = 0.02$ 的时候, 配对关联函数增强，关联函数呈现代数衰减**
+(3) $(t_2/t_1)^2 = J_2/J_1 = 0.02$, **配对关联增强，代数衰减, 代数衰减指数为 $K'_{SC}\approx 1.05$,**
+**配对关联是短程的，也就是存在强的局域配对，这是一种涨落超导（fluctuating superconductivity, FSC）**
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_3.png)
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_4.png)
 
-## Fluctuating superconductivity in the CDW + SDWF phase (CDW 和 SDWF 中的涨落超导性)
+**配对关联和单粒子关联的平方都会显著增强，在大距离下，配对关联比单粒子关联的平方大4个量级**
+**这是一种赝能隙的行为。**
 
-### "pseudogap" behavior, 赝能隙行为
+**进一步探索涨落超导的行为，我们在巨正则系统中调节化学势，哈密顿变为 $H\rightarrow H - \sum_i\mu_i n_i$,**
 
-![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig4.png)
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig6_4.png)
 
-**用到的关联函数:**
+**可以看到有限的d-wave超导配对序**
 
-**自旋单态配对关联（spin-singlet pairing correlation）:**  $P_{\alpha\beta}$, $(\alpha = a, b, c)$
+> **(e)子图的计算是怎么做出来的** 
 
-(1) 在 (t_2/t_1)^2 = J_2 / J_1 = 0.02, $|P_{bb}(r)|$
+> **(e) 当 n > 20% 的时候，配对序全部变为0，意味着什么了？**
+
+### TSC 相, 拓扑超导相
+
+**陈数 C=2, 出现时间反演对称性，超导配对关联呈现代数衰减，指数为 $K_{sc}\approx 1.0$, 强于自旋关联和电荷关联**
+**是二维拓扑超导体的准一维态.**
+
+(1) **通过截断尺寸外推，可以看到代数衰减的配对关联函数**
+**当 $(t_1/t_2)^2=J_1/J_2=0.05$, $|P_{bb}(r)|\sim r^{-K_{SC}}$**, **K_{SC}\approx 1.03**
+**这表明在零温极限下，会有发射的超导磁化率**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-t-t'-J-model-2023-SSGong/fig7_1.png)
+
+(2) **为了验证配对对称性, 我们配对序重新写为:**
+
+$$\Delta_{\alpha}(\textbf{r}) = |\Delta_{\alpha}(\textbf{r})|e^{i\theta_{\alpha}(\textbf{r})}$$
+
+
+
+
+## nematic d-wave SC, 向列D波超导
+
+**在大的次近邻相互作用下，向列D波超导相会出现，打破旋转对称性的各向异性配对关联(anisotropic pairing correlations breaking rotational symmetry)**
+**这和 $J_1-J_2$ 自旋液体中发现的超导是一样的。[55]**
+
+> **参考文献[55]似乎不太正确**
+
