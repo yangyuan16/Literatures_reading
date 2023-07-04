@@ -393,6 +393,7 @@ in real space and Fourier transforming it.
 
 ## Questions: 
 
+> **最后一个图中，为什么温度-参杂浓度相图能和序参量的图对上去呢?**
 
 ## 相关文献
 
