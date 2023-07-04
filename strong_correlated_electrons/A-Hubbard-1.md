@@ -109,3 +109,11 @@
 
 **一般方式是用spinliquid作为母态 然后进行掺杂**
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig41.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig42.png)
+
+
+## some insights
+
+(1) **短程的反铁磁关联对超导更友好，长程的反铁磁关联会破坏超导**
