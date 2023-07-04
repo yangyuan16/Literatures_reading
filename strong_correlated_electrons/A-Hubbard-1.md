@@ -88,3 +88,24 @@
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig33.png)
 
+> **4-leg cylinder 的结果很难推广到两维**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig34.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig35.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig36.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig37.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig38.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig39.png)
+
+
+## 实现超导的不同方式
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-1/fig40.png)
+
+**一般方式是用spinliquid作为母态 然后进行掺杂**
+
