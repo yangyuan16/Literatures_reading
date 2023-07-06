@@ -76,3 +76,6 @@
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-2/fig32.png)
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-2/fig33.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-2/fig34.png)
