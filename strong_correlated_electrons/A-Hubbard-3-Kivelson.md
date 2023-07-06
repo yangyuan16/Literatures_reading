@@ -1,1 +1,0 @@
-# [Steven R. White, Superconductivity in the Hubbard and t-J models (May 21, 2020)](https://www.youtube.com/watch?v=hMG-bynLdEU)
