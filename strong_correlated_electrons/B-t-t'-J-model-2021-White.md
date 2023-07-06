@@ -395,6 +395,18 @@ in real space and Fourier transforming it.
 
 > **最后一个图中，为什么温度-参杂浓度相图能和序参量的图对上去呢?**
 
+> **模型中 t' 的作用依然是未知的，而且 t' 导致的结果和实验不一致，从三带哈伯德模型映射到单带哈伯德模型的映射依赖于实验**
+
+> **如何理解这里面的singlet nature?**
+> **of course, we can solve a small system with two holes, look at the structure,**
+> **It's starting with the smallest that 2 by 2, and look at the wavefunction as the**
+> **singlet sort of popping arount itself. It's hard the think of there whether**
+> **there singlet or not**
+
+>**我们可以想象这些空穴在反铁磁背景下hopping?**
+>**if we think about t-J model, the holes moving are really just**
+>**the electrons hopping on to the hole**
+
 ## 相关文献
 
 ## 灵感
