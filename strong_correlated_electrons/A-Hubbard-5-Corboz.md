@@ -27,3 +27,30 @@
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig12.png)
 
+## Uniform d-wave SC state(+AF order), Period $\lambda=5$ (W5 stripe), Period $\lambda=8$ (W8 stripe)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig13.png)
+
+## Diagonal stripe (16 * 16 cell)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig14.png)
+
+## Half filling 的情况， Half filling 的时候没有 sign problem, 因此可以用 MC 来计算
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig15.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig16.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig17.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig18.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig19.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig20.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig21.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig22.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig23.png)
