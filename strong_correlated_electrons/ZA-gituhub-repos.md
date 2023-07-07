@@ -9,6 +9,14 @@
 **This is a julia package about basic implementation of iPEPS, including optimization of the ground-state and excitedstate.**
 **We use CTMRG contraction algorithm, and use autodiff to solve the gradient**
 
+(2) [ad-peps](https://github.com/b1592/ad-peps) Basic implementation of iPEPS ground-state and excited-state optimization
+using automatic differentiation. More extensive documentation can be found at [https://b1592.github.io/ad-peps]( https://b1592.github.io/ad-peps).
+
+(3) [ipeps](https://github.com/rezah/ipeps) 2D ipeps code, including simple, full and variational update.
+Use different branches for symmetry. 
+
+(4) [iPEPS](https://github.com/xichuang/iPEPS) Symmetric iPEPS algrithm based on itensor for spin and **fermionic system**. 
+Including simple, full and fast full update in the current stage.
 
 ## learning for tensor network
 
@@ -87,10 +95,38 @@ A C++ library to perform efficient Exact Diagonalizations of quantum many body s
 (3) [Hasik](https://github.com/jurajHasik?tab=repositories) 有很多的关于 ipeps 模拟复杂两维量子多体系统的代码
     
 * [j1j2_ipeps_states](https://github.com/jurajHasik/j1j2_ipeps_states) Infinite PEPS states for J1-J2 model on a square lattice.
-
 * [peps-torch](https://github.com/jurajHasik/peps-torch) A tensor network library for two-dimensional lattice models.
 peps-torch performs optimization of iPEPS. The energy is evaluated using enviroments obtained by the corner-transfer matrix (CTM)
 algorithm. Afterwards, the gradients are computed by reverse-mode automatic differentiation (AD). 
+* [pi-peps](https://github.com/jurajHasik/pi-peps) C++ library on top of ITensor for running iPEPS simulation 
+of two dimensional spin systems. Wavefunctions are optimized through Simple Update or Full Update. Expectation values
+and environments are computed by directional CTMRG algorithm. 
+* [tensorgrad](https://github.com/jurajHasik/tensorgrad) Differentiable Programming Tensor Networks
+
+(4) [yitan1](https://github.com/yitan1)
+
+* [iPEPS.jl](https://github.com/yitan1/iPEPS.jl) This is a julia package about basic implementation of iPEPS,
+including optimization of the ground-state and excited state. We use CTMRG contraction algorithm, and use autodiff to 
+solve the gradient. 
+* [uMPS.jl](https://github.com/yitan1/uMPS.jl) uniform Matrix product state
+* [PhyOperators.jl](https://github.com/yitan1/PhyOperators.jl) PhyOperators
+* [ad-peps](https://github.com/yitan1/ad-peps) Basic implementation of iPEPS ground-state and excited-state optimization automatic differentiation
+
+(5) [niusen](https://github.com/niusen)
+
+* [Symmetric_IPEPS](https://github.com/niusen/Symmetric_IPEPS)
+* [Gaussian-fermion-peps](https://github.com/niusen/Gaussian-fermion-peps)
+* [GfPEPS_parton](https://github.com/niusen/GfPEPS_parton)
+ 
+(6) [rezah](https://github.com/rezah) 他的代码都是用Python写的 
+
+* [ipeps](https://github.com/rezah/ipeps)
+* [QMERA](https://github.com/rezah/QMERA)
+* [fPEPS](https://github.com/rezah/fPEPS)
+* [cpeps](https://github.com/rezah/cpeps)
+* [qMPS](https://github.com/rezah/qMPS)
+* [unitary-tensor-network-operator](https://github.com/rezah/unitary-tensor-network-operator)
+
 
 # Useful softwares related to tensor network
 
