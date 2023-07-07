@@ -48,7 +48,7 @@ So we dropped some optimizations especially on the composition of Trotter gates 
 * Sz conseved/ Sz nonconseved
 * Sz conserved case: algorithm based on titpack2 and HPhi
   
-(2) [C++代码实现严格对角化](https://github.com/awietek/hydra)
+(2) [C++代码实现严格对角化](https://github.com/awietek/hydra) by [Alexander Wietek](https://github.com/awietek)
 
 A C++ library to perform efficient Exact Diagonalizations of quantum many body systems.
 
@@ -77,3 +77,25 @@ A C++ library to perform efficient Exact Diagonalizations of quantum many body s
 [Emergent lattices with geometrical frustration in doped extended Hubbard models](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.195111)
 
 [Spontaneous symmetry breaking in correlated wave functions](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.93.125127)
+
+# Usefule repos' authors:
+
+(1) [ryuikaneko](https://github.com/ryuikaneko?tab=repositories) repos 信息非常丰富
+
+(2) [Alexander Wietek](https://github.com/awietek) 严格对角化的c++代码和python 代码
+
+(3) [Hasik](https://github.com/jurajHasik?tab=repositories) 有很多的关于 ipeps 模拟复杂两维量子多体系统的代码
+    
+* [j1j2_ipeps_states](https://github.com/jurajHasik/j1j2_ipeps_states) Infinite PEPS states for J1-J2 model on a square lattice.
+
+* [peps-torch](https://github.com/jurajHasik/peps-torch) A tensor network library for two-dimensional lattice models.
+peps-torch performs optimization of iPEPS. The energy is evaluated using enviroments obtained by the corner-transfer matrix (CTM)
+algorithm. Afterwards, the gradients are computed by reverse-mode automatic differentiation (AD). 
+
+# Useful softwares related to tensor network
+
+(1) [TeNeS](https://github.com/issp-center-dev/TeNeS)
+ 
+ * TeNeS (Tensor Network Solver) is a solver for 2D quantum lattice system based on a PEPS wave function and 
+ * the CTM method. TeNeS can make use of many CPU/nodes through an OpenMP/MPI hybirid parallel tensor operation
+ * library mptensor.
