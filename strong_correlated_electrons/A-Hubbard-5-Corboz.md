@@ -39,9 +39,13 @@
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig15.png)
 
+## 在 t-J model 上计算的结果
+
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig16.png)
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig17.png)
+
+# 比较不同宽度stripe 的能量，这里的stripe 是 hope stripe, 不是 spin stripe
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig18.png)
 
@@ -54,3 +58,33 @@
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig22.png)
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig23.png)
+
+## 宽度为 W=4 和 宽度为 W=7 的 stripe 的能量
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig24.png)
+
+**宽度为4的stripe, hole 的密度更大一些，有利于动能项，动能项对整个哈密顿的低能贡献更大一些**
+**宽度为7的stripe, 反铁磁对整个哈密顿的低能贡献更多一些**
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig25.png)
+
+## Stability of the period-4 stripe phase
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig26.png)
+
+**在W=4的stripe 里面掺杂，超导被压制了，这和 W=5-8的stripe 不一样，在这些 stripe 里面，超导和stripe 是共存的**
+
+## 计算配对关联来验证在W=4的stripe 里面，超导被压制，而在W=5-8的stripe里面，超导是共存的
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-A-Hubbard-5/fig27.png)
+
+**在低浓度掺杂的 stripe 里面可以看到  short-rang p-wave pairing**
+**在高浓度参杂的 stripe 里面可以看到 d-wave pairing**
+
+**测量p-wave配对的公式为：**
+
+$$(\hat{c}_{i\uparrow}\hat{c}_{j\downarrow}+\hat{c}_{j\uparrow}\hat{c}_{i\downarrow})/\sqrt{2}$$
+
+**测量d-wave配对的公式为：**
+
+$$(\hat{c}_{i\uparrow}\hat{c}_{j\downarrow} - \hat{c}_{j\uparrow}\hat{c}_{i\downarrow})/\sqrt{2}$$
