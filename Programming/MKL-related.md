@@ -16,6 +16,11 @@
 * 库目录（有两个）：C:\Program Files (x86)\Intel\oneAPI\mkl\2022.1.0\lib\intel64  ; 
 * C:\Program Files (x86)\Intel\oneAPI\compiler\2022.1.0\windows\compiler\lib\intel64_win
 
+连接器->输入->附加依赖项 加入lib文件
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/Programming/figs_MKL/fig4.png)
+
+
 * 运行时出现的一些问题找不到 mkl_intel_thread.2.dll
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/Programming/figs_MKL/fig2.png)

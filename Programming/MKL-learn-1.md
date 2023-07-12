@@ -14,3 +14,7 @@
 
 (1) 选择一个文件夹作为C++项目的工作文件夹，其中建立三个文件夹:\inc, \src, \tmp,
 分别用于存放头文件, 源代码文件和临时文件。
+
+## [GeoFXR: MKL库矩阵乘法](https://www.cnblogs.com/GeophysicsWorker/p/16175589.html)
+
+## [GeoFXR: MKL稀疏矩阵运算示例以及函数封装](https://www.cnblogs.com/GeophysicsWorker/p/17347266.html)
