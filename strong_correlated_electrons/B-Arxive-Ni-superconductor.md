@@ -70,8 +70,29 @@
 > 初始的参数选择使得 3dz2 轨道的电子处于模特绝缘体的极限，3dx2-y2 轨道的电子在大的掺杂极限，类似于
 > orbital selective Mott physics. 
 
+## DMRG 结果
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-1/fig1.png)
 
+* 从(b)子图中可以看出，无论 J 怎么变化，3dz2 的电子密度为半满左右， 3dx2-y2的电子密度为1/4 填充左右。
+
+* 从(c) (d) 子图可以看出这里缺乏准长程的电荷密度波序。
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-1/fig2.png)
+
+* 由于自旋-自旋管理的计算需要大的计算资源，这里采用加一个钉扎场来处理，在左边一个电子处加一个钉扎场 $h_m = 0.5$,
+
+* 可以发现对于小的 J, 局域自旋密度衰减的非常慢，3dz2 上的电子密度大于 3dx2-y2
+
+* 随着 J 的增大，3dz2 和 3dx2-y2 的自旋密度都会受到压制，但是 3dz2 上的自旋密度会衰减的更快，
+因此，在大的J极限下，3dx2-y2上的自旋密度会远远大于 3dz2的自旋密度。
+
+* 当 J = 0.2 的时候， 两个轨道上的电荷密度波相近，会相差一个 $\pi$ 相位。
+并且 spin-orbital density wave 会消失。
+
+> 怎么看出 spin-orbital wave 的？
+
+> 在大的J极限下，3dx2-y2上的自旋密度会远远大于 3dz2的自旋密度。 这个能说明什么呢？
 
 ## 疑问：
 
