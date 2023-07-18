@@ -90,9 +90,12 @@
 * 当 J = 0.2 的时候， 两个轨道上的电荷密度波相近，会相差一个 $\pi$ 相位。
 并且 spin-orbital density wave 会消失。
 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-1/fig3.png)
+
 > 怎么看出 spin-orbital wave 的？
 
 > 在大的J极限下，3dx2-y2上的自旋密度会远远大于 3dz2的自旋密度。 这个能说明什么呢？
+
 
 ## 疑问：
 
