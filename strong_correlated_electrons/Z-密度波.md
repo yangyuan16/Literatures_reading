@@ -34,3 +34,6 @@
 ## 最高超导临界温度的材料
 
 * 铜氧化物 HgBa2Ca2Cu3O8 超导转变温度 Tc 约为 130K.
+
+## [什么是 pair density wave？在高温超导当中有何应用？](https://www.zhihu.com/question/428108693)
+
