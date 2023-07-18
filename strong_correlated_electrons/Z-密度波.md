@@ -37,3 +37,6 @@
 
 ## [什么是 pair density wave？在高温超导当中有何应用？](https://www.zhihu.com/question/428108693)
 
+(1) ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-density-wave/fig1.png)
+
+(2) 

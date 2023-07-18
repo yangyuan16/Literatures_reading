@@ -100,7 +100,28 @@ d 轨道的能量就出现了分裂
 为了从配对间隙打开中获得最大的能量，配对阶的节点线通常必须避开费米口袋，或者避开费米口袋上的范霍夫奇点。
 这有助于直观地理解铁基超导体中的s±-波配对和铜基超导体中d波配对。
 
+（2）因为能带分为可以分为价带和导带。价带一般是hole band用hole描述, 
+你可以认为能带向下弯的是hole band（有效质量为负,E(k)二阶导数）。
+导带一般electron band用electron描述, electron band 向上弯（有效质量为正）。
+如果Fermi能级同时通过hole band and electron band就有hole pocket 
+and electron pocket Fermi surface.
+ 
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig8.png)
+（3）以上图为例，上面是侧视图，下面是俯视图，横黑实线是费米能，上下图中，左侧是空穴型费米面在布里渊区中心（伽马点附近），
+其沿径向中心能量增加；右侧是电子型费米面（在M点），其沿着径向中心能量减小。灰色部分是被电子填充的部分。
+
+
 * [铁基高温超导体配对对称性是目前超导领域的一个重要课题](https://sc.nju.edu.cn/yjjz/20190621/i5120.html), 
 铁基超导发现至今，被广泛接受的配对对称性为 $s\pm$ 配对，即空穴口袋和电子口袋上的超导能隙符号相反。
 
 > 能隙符号为什么会相反呢？
+
+### [什么是费米面嵌套](https://www.zhihu.com/question/438919143)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig4.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig5.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig6.png)
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig7.png)
