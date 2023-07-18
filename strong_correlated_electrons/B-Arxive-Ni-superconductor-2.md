@@ -60,7 +60,21 @@ antiferromagnetism is a key compoonent in high-Tc supercondivity (长程反铁�
 
 * **电子型口袋主要来自于 dz2 和 dx2-y2 混合型轨道的贡献**
 
-* 
+## Bilayer two-orbital model, 两层两轨道模型
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig9.png)
+
+* 根据 (a) 子图构建一个紧束缚模型
+
+![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig10.png)
+
+* 从 $\Gamma$-X路径上，dx2-y2 和 dz2 轨道出现了主要的杂化，这是由于强的层间近领跃迁。(可以看到4条带)
+
+* 从 $\Gamma$-M 路径上，dx2-y2 能带简并(2层 所以有2条dx2-dy2能带)，这是由于 dx2-y2 与 dz2 上电子解耦导致的
+
+* (c) 图是填充电子数为 3 个的费米面
+
+
 
 ## 补充知识
 
