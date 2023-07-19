@@ -72,7 +72,19 @@ antiferromagnetism is a key compoonent in high-Tc supercondivity (长程反铁�
 
 * 从 $\Gamma$-M 路径上，dx2-y2 能带简并(2层 所以有2条dx2-dy2能带)，这是由于 dx2-y2 与 dz2 上电子解耦导致的
 
-* (c) 图是填充电子数为 3 个的费米面
+* (c) 图是填充电子数为 3 个的费米面，$\beta$ 代表的是 dx2-y2 电子口袋
+
+* (c) 图 $\gamma$ 是 dz2 空穴口袋
+
+* (d) 图是磁化率矩阵的最大本征值在 K 空间的分布，为的是确定 费米面嵌套 (Fermi surface nesting)
+
+* (d) 图磁化率的峰值出现在 ($\pi/2$, $\pi/2$), 来自电子口袋 $\alpha$ 和空穴口袋 $\gamma$ 的嵌套贡献
+
+* (d) 图磁化率的峰值出现在 (0.47$\pi$, 0) 和 ($\pi$, 0) 来自于 $\beta$ 和 $\gamma$ 的嵌套。
+
+* (d) 图 在q=（π，π）处的嵌套并不强，但可以通过空穴掺杂来增强。
+
+## FRG analysis
 
 
 
@@ -139,3 +151,6 @@ and electron pocket Fermi surface.
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig6.png)
 
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/strong_correlated_electrons/figs-B-Arxive-Ni-SC-2/fig7.png)
+
+### Functional Renomalization Analysis
+
