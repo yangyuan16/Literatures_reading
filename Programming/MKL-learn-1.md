@@ -17,4 +17,4 @@
 
 ## [GeoFXR: MKL库矩阵乘法](https://www.cnblogs.com/GeophysicsWorker/p/16175589.html)
 
-## [GeoFXR: MKL稀疏矩阵运算示例以及函数封装](https://www.cnblogs.com/GeophysicsWorker/p/17347266.html)
+## [GeoFXR: MKL稀疏矩阵运算示例以及函数封装](https://www.cnblogs.com/GeophysicsWorker/p/17347266.html)er/p/17347266.html)

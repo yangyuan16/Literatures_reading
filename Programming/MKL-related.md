@@ -28,4 +28,4 @@
 ![](https://github.com/yangyuan16/Literatures_reading/blob/main/Programming/figs_MKL/fig3.png)
 
 
-* 将 mkl_intel_thread.2.dll 的路径放到里面，确定。
+* 将 mkl_intel_thread.2.dll 的路径放到里面，确定。路径放到里面，确定。

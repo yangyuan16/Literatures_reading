@@ -10,4 +10,4 @@ eryuan7808
 
 ### [代理订阅中心](https://clash.razord.top/#/proxies)
 
-### [Linux中安装配置Clash](https://www.voidking.com/dev-linux-clash/)
+### [Linux中安装配置Clash](https://www.voidking.com/dev-linux-clash/)inux-clash/)
