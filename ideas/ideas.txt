@@ -19,3 +19,9 @@ ran 的文章中有很多关于纠缠普和纠缠熵的结果。
 #=====================================================================
 20230810
 （1） Quspin 中可以考虑 spinup 到 spindown 的 hopping 项
+
+（2） 把 Quspin 中的 feimi-Hubbard term MBL 问题 换成 t-J model 试一下
+
+（3） 把 Quspin 中的 feimi-Hubbard term MBL 问题 以及 XXZ MBL 换成不同的晶格试一下。 
+
+（4） 在 Quspin 中把 t-J model 写出来！

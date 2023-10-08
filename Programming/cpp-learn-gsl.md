@@ -1,0 +1,2 @@
+[GSL的Linux安装和使用教程（小白教程）_linux安装gsl-CSDN博客](https://blog.csdn.net/weixin_42035282/article/details/131708094?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~YuanLiJiHua~Position-2-131708094-blog-82113165.235^v38^pc_relevant_anti_t3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~YuanLiJiHua~Position-2-131708094-blog-82113165.235^v38^pc_relevant_anti_t3&utm_relevant_index=5)
+

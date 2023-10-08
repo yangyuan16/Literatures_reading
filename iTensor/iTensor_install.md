@@ -2,3 +2,29 @@
 
 ### [VScode 配 iTensor]
 
+
+
+
+
+### [在超算上安装Julia 和 ITensors](https://zhuanlan.zhihu.com/p/570547531#)
+
+
+
+[Julia 离线安装包](https://www.cnblogs.com/shouhuxianjian/p/9771392.html)
+
+
+
+([Julia国内源配置指南_julia安装包怎么换安装源-CSDN博客](https://blog.csdn.net/Lowerce/article/details/117964776))
+
+
+
+
+
+[Ubuntu系统下ITensor的安装与测试_itensor安装流程-CSDN博客](https://blog.csdn.net/qq_32507255/article/details/107154047)[Ubuntu系统下ITensor的安装与测试_itensor安装流程-CSDN博客](https://blog.csdn.net/qq_32507255/article/details/107154047)
+
+
+
+
+
+
+
